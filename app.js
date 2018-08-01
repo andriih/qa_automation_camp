@@ -9,56 +9,88 @@ stdin.addListener("data", (txt) => {
         stdin.end();
     } else {
         console.log(`\nHi ${txt.toString().trim()}, nice to meet you at Eleks QA Academy 2018. I am sure you'll become great in your job.`);
-        console.log(`${txt.toString().trim()}, to quit this application you can use 'Ctrl + C' keys, or type 'quit' and hit 'Enter'`); 
+        console.log(`${txt.toString().trim()}, to quit this application you can use 'Ctrl + C' keys, or type 'quit' and hit 'Enter'`);
+
+        const SymbolPresentInStr = (str, symbol) => {
+
+            if (str !== "" && symbol !== "") {
         
-        console.log('Task 1:')
-        const firstInt = 24;
-        const secondInt = 26;
-        console.log(`Sum of ${firstInt} and ${secondInt} is ${firstInt+secondInt}`);
-
-        console.log('Task 2:');
-        const addTest = 'Test_';
-        let someStr = 'hello';
-        console.log(`${addTest+someStr}`);
-
-        console.log('Task 3:');
-        let firstName = 'Andrii';
-        let lastName = 'Hnatyshyn';
-        let age = 26;
-        console.log(`Your full name is ${firstName} ${lastName}. You have ${age} years old.`);
-
-        console.log('Task 4:');
-        let someInt = 120;
-        let compareRes = someInt > 100 ? 'bigger' : 'NOT bigger';
-        console.log(`Number ${someInt} is ${compareRes} than 100!`);
-
-        console.log('Task 5:');
-        let compareInt = firstInt > secondInt  ? 'bigger' : 'NOT bigger';
-        console.log(`First Number (${firstInt}) is ${compareInt} than Second number (${secondInt})`);
+                let res = str.toLowerCase().indexOf(symbol.toLowerCase());
+                if (res !== -1) {
+                    console.log(`Symbol "${symbol}" is present in string "${str}".`);
+                    return true;
+                }
+                console.log(`Symbol "${symbol}" is NOT present in string "${str}".`);
+                return false;
+            }
+            console.log('Please, make sure that all parameters are NOT EMPTY!');
+        }
+        const StrBlankOrNot = (string) => {
+            let str = string.trim();
+            if (str.length === 0 || str[0] === 0 && str === "") {
+                console.log(`String ${str} is blank!`);
+                return true;
+            }
+            console.log(`String ${str} is NOT blank!`);
+            return false;
+        }
+        const StringInAbbreviatedForm = (name) => {
+            let trimName = name.trim();
+            if( trimName.indexOf(" ") === -1 ){
+                console.log("Should be two names!");
+                return;
+            }else{
+                if (trimName.length !== 0) {
+                    let res = trimName.split(" ");
+                    let firstLet = res[0][0].toUpperCase();
+                    let secondLet = res[1][0].toUpperCase();
+            
+                    console.log(`${firstLet}.${secondLet}.`);
+                } 
+            }
+            
+        }
+        const LargestInt = (firstInt, secondInt) => {
+            if (firstInt > secondInt) {
+                return `${firstInt} is larger then ${secondtInt}`;
+            } else if (firstInt < secondInt) {
+                return `${secondInt} is larger then ${firstInt}`;
+            } else {
+                return `${firstInt} = ${secondInt}`;
+            }
+        }
+        const threeIntsSort = (num1, num2, num3) => {
+            if (num1 > num2 && num1 > num3) {
+                if (num2 > num3) {
+                    console.log(`${num3} , ${num2} ,${num1}`);
+                }else {
+                    console.log(`${num2} , ${num3} ,${num1}`);
+                }
+            }
+            if (num2 > num1 && num2 > num3) {
+                if (num1 > num3) {
+                    console.log(`${num3} , ${num1} ,${num2}`);
+                }else {
+                    console.log(`${num1} , ${num3} ,${num2}`);
+                }
+            }
+            if (num3 >num1 && num3 > num2) {
+                if (num1 > num2) {
+                    console.log(`${num2} , ${num1} ,${num3}`);
+                }else {
+                    console.log(`${num1} , ${num2} ,${num3}`);
+                }
+            }
+            if(num1 === num2 && num2 === num3){
+                console.log(`${num1} , ${num2} ,${num3}`);
+            }
+        }
         
-        console.log('Task 6:');
-        if(firstInt===50 || secondInt===50){
-            console.log(`Given numbers ${firstInt} and ${secondInt}`);
-            console.log('One of the numbers is 50. So TRUE...');
-        }else if(firstInt+secondInt===50){
-            console.log(`Given numbers ${firstInt} and ${secondInt}`);
-            console.log('Sum of the numbers is 50. So TRUE...');
-        }else{
-            console.log(`Given numbers ${firstInt} and ${secondInt}`);
-            console.log('numbers are not equel to 50 and their sum also not equal to 50. So FALSE...');
-        }
-
-        console.log('Task 7:');
-        const givenNumber = 14;
-
-       if(givenNumber%3===0 && givenNumber%3===7){
-            console.log(`Given number ${givenNumber} is multiple to 3 and 7!`);
-       }else if(givenNumber%3===0){
-            console.log(`Given number ${givenNumber} is multiple to 3 !`);
-        }else if(givenNumber%7===0){
-            console.log(`Given number ${givenNumber} is multiple to 7 !`);
-        }else{
-            console.log(`Given number ${givenNumber} is NOT multiple to 3 and 7 !`);
-        }
-    }   
-  }); 
+        SymbolPresentInStr("Valere","va"); //Symbol "va" is present in string "Valere".
+        StrBlankOrNot("              ");//String  is blank!
+        StringInAbbreviatedForm("andrii hnatyshyn"); //A.H.
+        console.log(LargestInt(-23,0.1)); //0.1 is larger then -23
+        threeIntsSort(22, -3, 8); //-3 , 8 ,22
+        
+    }
+  });
