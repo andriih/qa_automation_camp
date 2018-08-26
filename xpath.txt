@@ -1,0 +1,28 @@
+https://en.wikipedia.org/wiki/Main_Page
+
+1)1. Write 4 XPath locators
+	
+	• Wiki logo:  
+		//div[@id='p-logo']/a[@title='Visit the main page']
+	
+	• Div element for Article count: 
+		//div[@id='articlecount']/a[@title='Special:Statistics']
+	
+	• 4-th item from "Did you know…" list:
+		//div[@id='mp-dyk']/ul/li[4]
+
+	• Count of ‘Interaction’ elements
+		//div[@id='p-interaction']/div/ul//li
+
+2. Write 4 CSS selectors
+	• Wiki logo:
+		div#p-logo>a.mw-wiki-logo
+	
+	• Div element for Article count
+		div#articlecount>a[title='Special:Statistics']
+	
+	• Main page link
+		div#mw-panel>div#p-navigation>div.body>ul>a[href]
+
+	• 2-nd item from "Did you know…" list
+		div#mp-dyk>ul>li:nth-child(2)
