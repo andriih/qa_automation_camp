@@ -1,64 +1,66 @@
-console.log("\nNice work! Your first application have been launched.");
-console.log("Now, I need to know your name, type it below: ");
+//Create a spec to verify if JS program computes correct sum of the two given integers
 
-let stdin = process.openStdin();
+const sumOfTwoNumbers = (num1,num2) => {
+    console.log(`Sum of ${num1} and ${num2} is ${num1+num2}`);
+    return num1+num2;
+}
 
-stdin.addListener("data", (txt) => {
-    if(txt.toString().trim() === "quit") {
-        console.log("\nHave a nice JS trip! Bye-bye");
-        stdin.end();
-    } else {
-        console.log(`\nHi ${txt.toString().trim()}, nice to meet you at Eleks QA Academy 2018. I am sure you'll become great in your job.`);
-        console.log(`${txt.toString().trim()}, to quit this application you can use 'Ctrl + C' keys, or type 'quit' and hit 'Enter'`); 
+//Create a suite to verify if JS program (calculator) works correctly 
+
+const plus = (a,b) =>{
+    return (a+b);
+};
+const substr = (a,b) =>{
+    return (a-b);
+};
+const mult = (a,b) =>{
+    return (a*b);
+};
+const divide = (a,b) =>{
+    if(b === 0){
+        console.log(" not alloved to devide by ZERO");
+        return false;
+    }
+    return (a/b);
+};
+
+const calc = (oper,a,b) => {
+    switch (oper){
+        case "+":
+        return(plus(a,b));
         
-        console.log('Task 1:')
-        const firstInt = 24;
-        const secondInt = 26;
-        console.log(`Sum of ${firstInt} and ${secondInt} is ${firstInt+secondInt}`);
-
-        console.log('Task 2:');
-        const addTest = 'Test_';
-        let someStr = 'hello';
-        console.log(`${addTest+someStr}`);
-
-        console.log('Task 3:');
-        let firstName = 'Andrii';
-        let lastName = 'Hnatyshyn';
-        let age = 26;
-        console.log(`Your full name is ${firstName} ${lastName}. You have ${age} years old.`);
-
-        console.log('Task 4:');
-        let someInt = 120;
-        let compareRes = someInt > 100 ? 'bigger' : 'NOT bigger';
-        console.log(`Number ${someInt} is ${compareRes} than 100!`);
-
-        console.log('Task 5:');
-        let compareInt = firstInt > secondInt  ? 'bigger' : 'NOT bigger';
-        console.log(`First Number (${firstInt}) is ${compareInt} than Second number (${secondInt})`);
+        case "-":
+        return(substr(a,b));
         
-        console.log('Task 6:');
-        if(firstInt===50 || secondInt===50){
-            console.log(`Given numbers ${firstInt} and ${secondInt}`);
-            console.log('One of the numbers is 50. So TRUE...');
-        }else if(firstInt+secondInt===50){
-            console.log(`Given numbers ${firstInt} and ${secondInt}`);
-            console.log('Sum of the numbers is 50. So TRUE...');
-        }else{
-            console.log(`Given numbers ${firstInt} and ${secondInt}`);
-            console.log('numbers are not equel to 50 and their sum also not equal to 50. So FALSE...');
-        }
+        case "*":
+        return(mult(a,b));
+       
+        case "/":
+        return(divide(a,b));
 
-        console.log('Task 7:');
-        const givenNumber = 14;
+        default:
+        return(`no such operator!`);
+    }
+}
 
-       if(givenNumber%3===0 && givenNumber%3===7){
-            console.log(`Given number ${givenNumber} is multiple to 3 and 7!`);
-       }else if(givenNumber%3===0){
-            console.log(`Given number ${givenNumber} is multiple to 3 !`);
-        }else if(givenNumber%7===0){
-            console.log(`Given number ${givenNumber} is multiple to 7 !`);
-        }else{
-            console.log(`Given number ${givenNumber} is NOT multiple to 3 and 7 !`);
-        }
-    }   
-  }); 
+
+
+//Create a spec to verify if JS program that compare two given numbers return true if 
+//       one of the number is 50 or if their sum is 50
+
+const compareTwoGivenNumbers = (int1,int2) => {
+    if(int1===50 || int2===50){
+        console.log(`Given numbers ${int1} and ${int2}`);
+        return true;
+    }else if(int1+int2===50){
+        console.log(`Given numbers ${int1} and ${int2}`);
+        return true;
+    }else{
+        console.log(`Given numbers ${int1} and ${int2}`);
+        return false;
+    }
+}
+
+module.exports.sumOfTwoNumbers = sumOfTwoNumbers;
+module.exports.calc = calc;
+module.exports.compareTwoGivenNumbers = compareTwoGivenNumbers;
