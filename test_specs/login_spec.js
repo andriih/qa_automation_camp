@@ -1,6 +1,6 @@
 let WebButton = require("../controls/web.button");
-let WebButton = require("../controls/web.input");
-let WebButton = require("../controls/web.label");
+let WebTextInput = require("../controls/web.input");
+let WebTextView = require("../controls/web.label");
 
 describe('Login Functionality', () => {
 
@@ -10,7 +10,7 @@ describe('Login Functionality', () => {
     let loginField = new WebTextInput(element(by.id('email')), "Login field");
     let passwordField = new WebTextInput(element(by.id('userPassword')), "Password field");
 
-    let getlabel = new WebTextView(element(by.css(".user-name")),"Name");
+    let getText = new WebTextView(element(by.css(".user-name")),"Label");
 
     let logoutDrop = new WebButton(element(by.css('span.caret')), 'Logout Dropdown');
     let logoutButton = new WebButton(element(by.css('a.dropdown-item>strong')),"Logout Button");
@@ -25,7 +25,9 @@ describe('Login Functionality', () => {
 
         await signInButton.click();
 
-        let name = await getlabel.getText();
+        let name = await getText.getLabel();
+
+        console.log(name);
 
         expect(name).toEqual('Andrii Hnatyshyn');
         console.log("User Name - " + name );
@@ -36,12 +38,12 @@ describe('Login Functionality', () => {
 
         await loginButton.click();
      
-        await loginField.sendKeys("andrii.hnatyshyn+scorer@gmail.com");
-        await passwordField.sendKeys("$FwQ5Yue");
+        await loginField.sendKeys("andrii.hnatyshyn@gmail.com");
+        await passwordField.sendKeys("+V2fQfyfmgr");
 
         await signInButton.click();
 
-        let name = await getlabel.getText();
+        let name = await getText.getLabel();
 
         expect(name).toEqual('Andrii Hnatyshyn');
         console.log("User Name - " + name );
@@ -54,13 +56,11 @@ describe('Login Functionality', () => {
         await passwordField.sendKeys("$FwQ5Yue");
         await signInButton.click();
 
-        let name = await getlabel.getText();
+        let name = await getText.getLabel();
            
         await logoutDrop.click();
         await logoutButton.click();
 
-        let name = await element(by.css(".user-name")).getText();
-        
         expect(name).toEqual('Andrii Hnatyshyn');
         console.log("User Name - " + name );
     });
