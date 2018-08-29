@@ -20,7 +20,15 @@ describe('Admin page: ',() => {
         await AdminPageObject.setPassword("+V2fQfyfmgr");
         await AdminPageObject.clickSignInButton();
 
-        await AdminPageObject.admin();
+        await AdminPageObject.administrationButton();
+
+        await AdminPageObject.newProductButton();
+
+        await AdminPageObject.setProductName("MY-NEW-PRODUCT");
+
+        await AdminPageObject.saveButton;
+
+        
     
         
     });

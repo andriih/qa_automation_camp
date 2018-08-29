@@ -19,7 +19,8 @@ class AbstractPageObject{
         this.getText = new WebTextView(element(by.css(".user-name")),"Label");
     
         this.logoutDrop = new WebButton(element(by.css('span.caret')), 'Logout Dropdown');
-        this.logoutButton = new WebButton(element(by.css('a.dropdown-item>strong')),"Logout Button"); 
+        this.logoutButton = new WebButton(element(by.css('a.dropdown-item>strong')),"Logout Button");
+  
     }
 
     async get() {
