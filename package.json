@@ -1,8 +1,17 @@
 {
-    "name": "MyFirstApp",
-    "version": "1.0.0",
-    "description": "",
-    "author": "",
-    "license": "ISC",    
-    "dependencies": {}
-  }
+  "name": "js-practice-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./configs/conf.js",
+  "scripts": {
+    "update" : "./node_modules/.bin/webdriver-manager update",
+    "start"  : "./node_modules/.bin/webdriver-manager start",
+    "test"      : "node node_modules/protractor/bin/protractor configs/conf.js"
+  },
+  "author": "Andrii Hnatyshyn",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.2.0",
+    "protractor": "^5.4.0"
+  } 
+}
