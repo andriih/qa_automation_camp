@@ -1,0 +1,17 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Login pass test",
+    "uid" : "2271888377630f7f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1536174900110,
+      "stop" : 1536174922357,
+      "duration" : 22247
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  } ]
+}

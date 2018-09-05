@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1536174366821' stop='1536174375317'>
+    <name>Login suit:</name>
+    <title>Login suit:</title>
+    <test-cases>
+        <test-case start='1536174366822' status='pending' stop='1536174366824'>
+            <name>Login pass test</name>
+            <title>Login pass test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Temporarily disabled with xit</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1536174366825' status='passed' stop='1536174375317'>
+            <name>Login pass test</name>
+            <title>Login pass test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

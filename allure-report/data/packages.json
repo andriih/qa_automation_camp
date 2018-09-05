@@ -1,0 +1,21 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Login suit:",
+    "children" : [ {
+      "name" : "Login pass test",
+      "uid" : "2271888377630f7f",
+      "parentUid" : "8629a99bb8f1a4921c63e661b6a62949",
+      "status" : "passed",
+      "time" : {
+        "start" : 1536174900110,
+        "stop" : 1536174922357,
+        "duration" : 22247
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8629a99bb8f1a4921c63e661b6a62949"
+  } ]
+}
