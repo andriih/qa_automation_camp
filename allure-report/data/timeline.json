@@ -3,13 +3,13 @@
   "name" : "timeline",
   "children" : [ {
     "name" : "Login pass test",
-    "uid" : "2271888377630f7f",
+    "uid" : "583492cc4956844e",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1536174900110,
-      "stop" : 1536174922357,
-      "duration" : 22247
+      "start" : 1536216857901,
+      "stop" : 1536216876576,
+      "duration" : 18675
     },
     "flaky" : true,
     "parameters" : [ ]

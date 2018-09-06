@@ -1,3 +1,4 @@
+
 let ProductsPage = require('./products.page');
 
 let loginBtnLocator = "button.btn.login-button";

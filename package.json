@@ -7,7 +7,7 @@
     "update": "./node_modules/.bin/webdriver-manager update",
     "start": "./node_modules/.bin/webdriver-manager start",
     "test": "node node_modules/protractor/bin/protractor configs/conf.js",
-    "posttest":"allure generate allure-results --clean -o allure-report"
+    "posttest": "allure generate allure-results --clean -o allure-report"
   },
   "author": "Andrii Hnatyshyn",
   "license": "ISC",

@@ -6,6 +6,7 @@ let addProdLinkLocator = "div.form-group > a.section-body__actions >span:nth-chi
 
 class ProductsPage {
     constructor(){
+        
         this.header = new HeaderPage();
     }
 
@@ -14,8 +15,12 @@ class ProductsPage {
     }
 
     async create(){
-        await this.header.getAdministrationMenu().click();
+
+       // browser.wait(protractor.ExpectedConditions.presenceOf(this.header.getAdministrationMenu()), 5000, 'Element taking too long to appear in the DOM');
+      
+       await this.header.getAdministrationMenu().click();
         await this.getAddProdLink().click();
+        //await browser.sleep(3000);
     }
 
 

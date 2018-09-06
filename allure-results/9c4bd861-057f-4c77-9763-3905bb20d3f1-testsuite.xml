@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1536174366821' stop='1536174375317'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1536216713545' stop='1536216731808'>
     <name>Login suit:</name>
     <title>Login suit:</title>
     <test-cases>
-        <test-case start='1536174366822' status='pending' stop='1536174366824'>
+        <test-case start='1536216713545' status='pending' stop='1536216713548'>
             <name>Login pass test</name>
             <title>Login pass test</title>
             <labels/>
@@ -15,7 +15,7 @@
                 <stack-trace></stack-trace>
             </failure>
         </test-case>
-        <test-case start='1536174366825' status='passed' stop='1536174375317'>
+        <test-case start='1536216713548' status='passed' stop='1536216731807'>
             <name>Login pass test</name>
             <title>Login pass test</title>
             <labels/>
