@@ -1,5 +1,6 @@
 browser.ignoreSynchronization = true;
 let HeaderPage = require("./header.page");
+let WebButton = require('../controls/web.button');
 
 let addProdLinkLocator = "div.form-group > a.section-body__actions >span:nth-child(2)";
 
@@ -11,7 +12,7 @@ class ProductsPage {
     }
 
     getAddProdLink(){
-        return element(by.css(addProdLinkLocator));
+        return new WebButton(element(by.css(addProdLinkLocator)),"Add product link");
     }
 
     async create(){

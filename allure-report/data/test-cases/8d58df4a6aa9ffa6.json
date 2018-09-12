@@ -1,0 +1,78 @@
+{
+  "uid" : "8d58df4a6aa9ffa6",
+  "name" : "Login pass test",
+  "fullName" : "Login suit:.Login pass test",
+  "historyId" : "59c66701eff4bae48682a98e5be0f13c",
+  "time" : {
+    "start" : 1536781804706,
+    "stop" : 1536781811269,
+    "duration" : 6563
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed: No element found using locator: By(css selector, button.btn.login-button)",
+  "statusTrace" : "NoSuchElementError: No element found using locator: By(css selector, button.btn.login-button)\n                    at elementArrayFinder.getWebElements.then (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\protractor\\built\\element.js:814:27)\n                    at ManagedPromise.invokeCallback_ (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n                    at TaskQueue.execute_ (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n                    at TaskQueue.executeNext_ (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n                    at asyncRun (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n                    at E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n                    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n                    at ElementArrayFinder.applyAction_ (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\protractor\\built\\element.js:459:27)\n                    at ElementArrayFinder.(anonymous function).args [as click] (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\protractor\\built\\element.js:91:29)\n                    at ElementFinder.(anonymous function).args [as click] (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\protractor\\built\\element.js:831:22)\n                    at LoginPage.login (E:\\Projects\\js-practice-4\\qa_automation_camp\\page_objects\\login.page.js:39:34)\n                    at allure.createStep (E:\\Projects\\js-practice-4\\qa_automation_camp\\tests\\login.spec.js:13:49)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)\n                From: Task: Run it(\"Login pass test\") in control flow\n                    at UserContext.<anonymous> (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\jasminewd2\\index.js:94:19)\n                    at attempt (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n                    at QueueRunner.run (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n                    at QueueRunner.execute (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n                    at Spec.queueRunnerFactory (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\n                    at Spec.execute (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:526:10)\n                    at UserContext.fn (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:5340:37)\n                    at attempt (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n                    at QueueRunner.run (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n                    at QueueRunner.execute (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n                From asynchronous test: \n                Error\n                    at Suite.describe (E:\\Projects\\js-practice-4\\qa_automation_camp\\tests\\login.spec.js:8:4)\n                    at addSpecsToSuite (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n                    at Env.describe (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n                    at describe (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n                    at Object.<anonymous> (E:\\Projects\\js-practice-4\\qa_automation_camp\\tests\\login.spec.js:5:1)\n                    at Module._compile (internal/modules/cjs/loader.js:689:30)\n                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n                    at Module.load (internal/modules/cjs/loader.js:599:32)\n                    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Failed: No element found using locator: By(css selector, button.btn.login-button)",
+    "statusTrace" : "NoSuchElementError: No element found using locator: By(css selector, button.btn.login-button)\n                    at elementArrayFinder.getWebElements.then (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\protractor\\built\\element.js:814:27)\n                    at ManagedPromise.invokeCallback_ (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n                    at TaskQueue.execute_ (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n                    at TaskQueue.executeNext_ (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n                    at asyncRun (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n                    at E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n                    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n                    at ElementArrayFinder.applyAction_ (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\protractor\\built\\element.js:459:27)\n                    at ElementArrayFinder.(anonymous function).args [as click] (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\protractor\\built\\element.js:91:29)\n                    at ElementFinder.(anonymous function).args [as click] (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\protractor\\built\\element.js:831:22)\n                    at LoginPage.login (E:\\Projects\\js-practice-4\\qa_automation_camp\\page_objects\\login.page.js:39:34)\n                    at allure.createStep (E:\\Projects\\js-practice-4\\qa_automation_camp\\tests\\login.spec.js:13:49)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)\n                From: Task: Run it(\"Login pass test\") in control flow\n                    at UserContext.<anonymous> (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\jasminewd2\\index.js:94:19)\n                    at attempt (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n                    at QueueRunner.run (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n                    at QueueRunner.execute (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n                    at Spec.queueRunnerFactory (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\n                    at Spec.execute (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:526:10)\n                    at UserContext.fn (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:5340:37)\n                    at attempt (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n                    at QueueRunner.run (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n                    at QueueRunner.execute (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n                From asynchronous test: \n                Error\n                    at Suite.describe (E:\\Projects\\js-practice-4\\qa_automation_camp\\tests\\login.spec.js:8:4)\n                    at addSpecsToSuite (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n                    at Env.describe (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n                    at describe (E:\\Projects\\js-practice-4\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n                    at Object.<anonymous> (E:\\Projects\\js-practice-4\\qa_automation_camp\\tests\\login.spec.js:5:1)\n                    at Module._compile (internal/modules/cjs/loader.js:689:30)\n                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n                    at Module.load (internal/modules/cjs/loader.js:599:32)\n                    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)",
+    "steps" : [ {
+      "name" : "Step 1",
+      "time" : {
+        "start" : 1536781804709,
+        "stop" : 1536781809516,
+        "duration" : 4807
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "380b7507e000415f",
+      "name" : "Screenshot",
+      "source" : "380b7507e000415f.png",
+      "type" : "image/png",
+      "size" : 5163
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login suit:"
+  }, {
+    "name" : "testClass",
+    "value" : "Login suit:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login pass test"
+  }, {
+    "name" : "package",
+    "value" : "Login suit:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8d58df4a6aa9ffa6.json",
+  "parameterValues" : [ ]
+}

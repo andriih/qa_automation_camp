@@ -1,0 +1,33 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Login suit:",
+    "children" : [ {
+      "name" : "Login pass test",
+      "uid" : "501f61fdce148e0d",
+      "parentUid" : "8629a99bb8f1a4921c63e661b6a62949",
+      "status" : "passed",
+      "time" : {
+        "start" : 1536783629573,
+        "stop" : 1536783639991,
+        "duration" : 10418
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Prod tab:",
+      "uid" : "af9f7932e755c193",
+      "parentUid" : "8629a99bb8f1a4921c63e661b6a62949",
+      "status" : "passed",
+      "time" : {
+        "start" : 1536783639991,
+        "stop" : 1536783665331,
+        "duration" : 25340
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8629a99bb8f1a4921c63e661b6a62949"
+  } ]
+}

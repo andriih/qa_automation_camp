@@ -1,0 +1,33 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Login suit:",
+    "children" : [ {
+      "name" : "Login pass test",
+      "uid" : "501f61fdce148e0d",
+      "parentUid" : "bdbc1ff6cbf9b078c589afcbb159fb42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1536783629573,
+        "stop" : 1536783639991,
+        "duration" : 10418
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Prod tab:",
+      "uid" : "af9f7932e755c193",
+      "parentUid" : "bdbc1ff6cbf9b078c589afcbb159fb42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1536783639991,
+        "stop" : 1536783665331,
+        "duration" : 25340
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bdbc1ff6cbf9b078c589afcbb159fb42"
+  } ]
+}

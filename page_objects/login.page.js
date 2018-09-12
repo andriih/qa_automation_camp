@@ -1,5 +1,8 @@
 browser.ignoreSynchronization = true;
 
+let WebButton = require("../controls/web.button");
+let WebInput = require("../controls/web.Input");
+
 let ProductsPage = require('./products.page');
 
 let loginBtnLocator = "button.btn.login-button";
@@ -7,23 +10,24 @@ let emailInputLocator = "#email";
 let passwordInputLocator = "#userPassword";
 let signInBtnLocator = "div.iframe-wrap > div.row >div >button.login-button";
 
+
 class LoginPage {
     constructor(){ }
 
     getLoginBtn(){
-        return element(by.css(loginBtnLocator));
+        return new WebButton(element(by.css(loginBtnLocator)),"Login button");
     }
 
     getEmailInput(){
-        return element(by.css(emailInputLocator));
+        return new WebInput(element(by.css(emailInputLocator)),"Email input field");
     }
 
     getPasswordInput(){
-        return element(by.css(passwordInputLocator));
+        return new WebInput(element(by.css(passwordInputLocator)),"Password input field");
     }
 
     getSignInBtn(){
-        return element(by.css(signInBtnLocator));
+        return new WebButton(element(by.css(signInBtnLocator)),"Sign In button");
     }
 
     async open(url){
@@ -33,8 +37,6 @@ class LoginPage {
     }
 
     async login(email,password){
-
-       // await this.getLoginBtn().isDisplayed();
 
         await this.getLoginBtn().click();
         await this.getEmailInput().sendKeys(email);
