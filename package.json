@@ -6,13 +6,15 @@
   "scripts": {
     "update": "./node_modules/.bin/webdriver-manager update",
     "start": "./node_modules/.bin/webdriver-manager start",
-    "test": "node node_modules/protractor/bin/protractor configs/conf.js",
-    "posttest": "allure generate allure-results --clean -o allure-report"
+    "test": "node node_modules/protractor/bin/protractor configs/conf.js ",
+    "posttest": "allure generate allure-results --clean -o allure-report",
+    "dev": "node node_modules/protractor/bin/protractor configs/conf.js && allure generate allure-results --clean -o allure-report"
   },
   "author": "Andrii Hnatyshyn",
   "license": "ISC",
   "devDependencies": {
     "allure-commandline": "^2.7.0",
+    "concurrently": "^4.0.1",
     "jasmine": "^3.2.0",
     "jasmine-allure-reporter": "^1.0.2",
     "protractor": "^5.4.0"

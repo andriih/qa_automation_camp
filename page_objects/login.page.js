@@ -1,3 +1,4 @@
+browser.ignoreSynchronization = true;
 
 let ProductsPage = require('./products.page');
 
@@ -32,6 +33,9 @@ class LoginPage {
     }
 
     async login(email,password){
+
+       // await this.getLoginBtn().isDisplayed();
+
         await this.getLoginBtn().click();
         await this.getEmailInput().sendKeys(email);
         await this.getPasswordInput().sendKeys(password);
