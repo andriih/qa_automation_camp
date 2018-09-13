@@ -1,0 +1,78 @@
+{
+  "uid" : "e65b21342ec63aa2",
+  "name" : "Prod tab:",
+  "fullName" : "Login suit:.Prod tab:",
+  "historyId" : "3d50a04477ae2e6396952f87531f6786",
+  "time" : {
+    "start" : 1536821781988,
+    "stop" : 1536821782232,
+    "duration" : 244
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed: this.getLogoutDropdown.click is not a function",
+  "statusTrace" : "TypeError: this.getLogoutDropdown.click is not a function\n                    at LoginPage.logout (E:\\allure\\qa_automation_camp\\page_objects\\login.page.js:65:39)\n                    at allure.createStep (E:\\allure\\qa_automation_camp\\tests\\login.spec.js:24:29)\n                    at E:\\allure\\qa_automation_camp\\node_modules\\allure-js-commons\\runtime.js:18:31\n                    at UserContext.it (E:\\allure\\qa_automation_camp\\tests\\login.spec.js:26:7)\n                    at E:\\allure\\qa_automation_camp\\node_modules\\jasminewd2\\index.js:112:25\n                    at new ManagedPromise (E:\\allure\\qa_automation_camp\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n                    at ControlFlow.promise (E:\\allure\\qa_automation_camp\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n                    at schedulerExecute (E:\\allure\\qa_automation_camp\\node_modules\\jasminewd2\\index.js:95:18)\n                    at TaskQueue.execute_ (E:\\allure\\qa_automation_camp\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n                    at TaskQueue.executeNext_ (E:\\allure\\qa_automation_camp\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n                From: Task: Run it(\"Prod tab:\") in control flow\n                    at UserContext.<anonymous> (E:\\allure\\qa_automation_camp\\node_modules\\jasminewd2\\index.js:94:19)\n                    at attempt (E:\\allure\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n                    at QueueRunner.run (E:\\allure\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n                    at QueueRunner.execute (E:\\allure\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n                    at Spec.queueRunnerFactory (E:\\allure\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\n                    at Spec.execute (E:\\allure\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:526:10)\n                    at UserContext.fn (E:\\allure\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:5340:37)\n                    at attempt (E:\\allure\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n                    at QueueRunner.run (E:\\allure\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n                    at runNext (E:\\allure\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n                From asynchronous test: \n                Error\n                    at Suite.describe (E:\\allure\\qa_automation_camp\\tests\\login.spec.js:21:5)\n                    at addSpecsToSuite (E:\\allure\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n                    at Env.describe (E:\\allure\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n                    at describe (E:\\allure\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n                    at Object.<anonymous> (E:\\allure\\qa_automation_camp\\tests\\login.spec.js:5:1)\n                    at Module._compile (internal/modules/cjs/loader.js:689:30)\n                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n                    at Module.load (internal/modules/cjs/loader.js:599:32)\n                    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Failed: this.getLogoutDropdown.click is not a function",
+    "statusTrace" : "TypeError: this.getLogoutDropdown.click is not a function\n                    at LoginPage.logout (E:\\allure\\qa_automation_camp\\page_objects\\login.page.js:65:39)\n                    at allure.createStep (E:\\allure\\qa_automation_camp\\tests\\login.spec.js:24:29)\n                    at E:\\allure\\qa_automation_camp\\node_modules\\allure-js-commons\\runtime.js:18:31\n                    at UserContext.it (E:\\allure\\qa_automation_camp\\tests\\login.spec.js:26:7)\n                    at E:\\allure\\qa_automation_camp\\node_modules\\jasminewd2\\index.js:112:25\n                    at new ManagedPromise (E:\\allure\\qa_automation_camp\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n                    at ControlFlow.promise (E:\\allure\\qa_automation_camp\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n                    at schedulerExecute (E:\\allure\\qa_automation_camp\\node_modules\\jasminewd2\\index.js:95:18)\n                    at TaskQueue.execute_ (E:\\allure\\qa_automation_camp\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n                    at TaskQueue.executeNext_ (E:\\allure\\qa_automation_camp\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n                From: Task: Run it(\"Prod tab:\") in control flow\n                    at UserContext.<anonymous> (E:\\allure\\qa_automation_camp\\node_modules\\jasminewd2\\index.js:94:19)\n                    at attempt (E:\\allure\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n                    at QueueRunner.run (E:\\allure\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n                    at QueueRunner.execute (E:\\allure\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n                    at Spec.queueRunnerFactory (E:\\allure\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\n                    at Spec.execute (E:\\allure\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:526:10)\n                    at UserContext.fn (E:\\allure\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:5340:37)\n                    at attempt (E:\\allure\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n                    at QueueRunner.run (E:\\allure\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n                    at runNext (E:\\allure\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n                From asynchronous test: \n                Error\n                    at Suite.describe (E:\\allure\\qa_automation_camp\\tests\\login.spec.js:21:5)\n                    at addSpecsToSuite (E:\\allure\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n                    at Env.describe (E:\\allure\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n                    at describe (E:\\allure\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n                    at Object.<anonymous> (E:\\allure\\qa_automation_camp\\tests\\login.spec.js:5:1)\n                    at Module._compile (internal/modules/cjs/loader.js:689:30)\n                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n                    at Module.load (internal/modules/cjs/loader.js:599:32)\n                    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)",
+    "steps" : [ {
+      "name" : "Open EDS page: ",
+      "time" : {
+        "start" : 1536821781988,
+        "stop" : 1536821781989,
+        "duration" : 1
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "8506fe14d8b9376f",
+      "name" : "Screenshot",
+      "source" : "8506fe14d8b9376f.png",
+      "type" : "image/png",
+      "size" : 21596
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login suit:"
+  }, {
+    "name" : "testClass",
+    "value" : "Login suit:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Prod tab:"
+  }, {
+    "name" : "package",
+    "value" : "Login suit:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e65b21342ec63aa2.json",
+  "parameterValues" : [ ]
+}

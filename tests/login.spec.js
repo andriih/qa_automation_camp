@@ -21,8 +21,8 @@ describe('Login suit:', ()=>{
     it('Prod tab:', async () => {   
 
     await allure.createStep('Open EDS page: ', async () =>{  
-             await browser.sleep(5000);
-            await loginPage.open('http://eds_university.eleks.com/');        
+            await loginPage.logout();
+            await loginPage.open('http://eds_university.eleks.com/');
     })();
 
    await allure.createStep('Step 2', async () =>{

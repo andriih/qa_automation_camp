@@ -10,6 +10,9 @@ let emailInputLocator = "#email";
 let passwordInputLocator = "#userPassword";
 let signInBtnLocator = "div.iframe-wrap > div.row >div >button.login-button";
 
+let logoutDropdownLocator = "span.caret";
+let logoutButtonLocator = "a.dropdown-item>strong";
+
 
 class LoginPage {
     constructor(){ }
@@ -30,6 +33,15 @@ class LoginPage {
         return new WebButton(element(by.css(signInBtnLocator)),"Sign In button");
     }
 
+    getLogoutDropdown(){
+        return new WebButton(element(by.css(logoutDropdownLocator)), 'Logout Dropdown');
+    }
+    
+    getLogoutButton(){
+        return new WebButton(element(by.css(logoutButtonLocator)),"Logout Button");
+    }
+    
+
     async open(url){
         await browser.get(url);
 
@@ -44,6 +56,14 @@ class LoginPage {
         await this.getSignInBtn().click();
         
         return new ProductsPage();
+    }
+
+    async logout(){
+
+       // new WebButton(element(by.css(LogoutButtonLocator)),"Logout Button").click();
+           
+          await this.getLogoutDropdown().click();
+          await this.getLogoutButton().click();
     }
 }
 
