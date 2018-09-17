@@ -21,15 +21,15 @@ describe('Login suit:', ()=>{
     it('Prod tab:', async () => {   
 
     await allure.createStep('Open EDS page: ', async () =>{  
-            await loginPage.logout();
-            await loginPage.open('http://eds_university.eleks.com/');
+        await browser.sleep(5000);
+        await loginPage.open('http://eds_university.eleks.com/');
     })();
 
-   await allure.createStep('Step 2', async () =>{
-       await browser.sleep(5000);
+   await allure.createStep('Step 2: Create product', async () =>{
+        await browser.sleep(5000);
         let productsPage =  await loginPage.login('andrii.hnatyshyn@gmail.com','+V2fQfyfmgr');
         await productsPage.create();   
-        expect(await productsPage.header.isHeaderVisible()).toEqual(true);
+    
     })();
        
     });

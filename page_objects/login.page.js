@@ -58,10 +58,7 @@ class LoginPage {
         return new ProductsPage();
     }
 
-    async logout(){
-
-       // new WebButton(element(by.css(LogoutButtonLocator)),"Logout Button").click();
-           
+    async logout(){  
           await this.getLogoutDropdown().click();
           await this.getLogoutButton().click();
     }

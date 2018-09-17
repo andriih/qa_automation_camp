@@ -1,0 +1,93 @@
+{
+  "uid" : "b216f2445325c0d8",
+  "name" : "Prod tab:",
+  "fullName" : "Login suit:.Prod tab:",
+  "historyId" : "3d50a04477ae2e6396952f87531f6786",
+  "time" : {
+    "start" : 1537127806177,
+    "stop" : 1537127831021,
+    "duration" : 24844
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "NoSuchElementError: No element found using locator: By(css selector, #navbar > ul > li:nth-child(2) > a)",
+  "statusTrace" : "NoSuchElementError: No element found using locator: By(css selector, #navbar > ul > li:nth-child(2) > a)\n                    at elementArrayFinder.getWebElements.then (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\built\\element.js:814:27)\n                    at ManagedPromise.invokeCallback_ (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n                    at TaskQueue.execute_ (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n                    at TaskQueue.executeNext_ (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n                    at asyncRun (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n                    at C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n                    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n                    at ElementArrayFinder.applyAction_ (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\built\\element.js:459:27)\n                    at ElementArrayFinder.(anonymous function).args [as click] (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\built\\element.js:91:29)\n                    at ElementFinder.(anonymous function).args [as click] (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\built\\element.js:831:22)\n                    at ProductsPage.create (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\page_objects\\products.page.js:20:60)\n                    at allure.createStep (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\tests\\login.spec.js:32:28)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "NoSuchElementError: No element found using locator: By(css selector, #navbar > ul > li:nth-child(2) > a)",
+    "statusTrace" : "NoSuchElementError: No element found using locator: By(css selector, #navbar > ul > li:nth-child(2) > a)\n                    at elementArrayFinder.getWebElements.then (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\built\\element.js:814:27)\n                    at ManagedPromise.invokeCallback_ (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n                    at TaskQueue.execute_ (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n                    at TaskQueue.executeNext_ (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n                    at asyncRun (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n                    at C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n                    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n                    at ElementArrayFinder.applyAction_ (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\built\\element.js:459:27)\n                    at ElementArrayFinder.(anonymous function).args [as click] (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\built\\element.js:91:29)\n                    at ElementFinder.(anonymous function).args [as click] (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\built\\element.js:831:22)\n                    at ProductsPage.create (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\page_objects\\products.page.js:20:60)\n                    at allure.createStep (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\tests\\login.spec.js:32:28)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)",
+    "steps" : [ {
+      "name" : "Open EDS page: ",
+      "time" : {
+        "start" : 1537127806177,
+        "stop" : 1537127813185,
+        "duration" : 7008
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Step 2",
+      "time" : {
+        "start" : 1537127813185,
+        "stop" : 0,
+        "duration" : -1537127813185
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "88abf4bbaf9cf76c",
+        "name" : "Screenshot",
+        "source" : "88abf4bbaf9cf76c.png",
+        "type" : "image/png",
+        "size" : 5163
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login suit:"
+  }, {
+    "name" : "testClass",
+    "value" : "Login suit:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Prod tab:"
+  }, {
+    "name" : "package",
+    "value" : "Login suit:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b216f2445325c0d8.json",
+  "parameterValues" : [ ]
+}

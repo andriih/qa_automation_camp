@@ -1,0 +1,89 @@
+{
+  "uid" : "ce7b6dc1b787fdad",
+  "name" : "Prod tab:",
+  "fullName" : "Login suit:.Prod tab:",
+  "historyId" : "3d50a04477ae2e6396952f87531f6786",
+  "time" : {
+    "start" : 1537127938321,
+    "stop" : 1537127960098,
+    "duration" : 21777
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open EDS page: ",
+      "time" : {
+        "start" : 1537127938322,
+        "stop" : 1537127945555,
+        "duration" : 7233
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Step 2",
+      "time" : {
+        "start" : 1537127945555,
+        "stop" : 1537127958277,
+        "duration" : 12722
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "7246b2310e863066",
+      "name" : "Screenshot",
+      "source" : "7246b2310e863066.png",
+      "type" : "image/png",
+      "size" : 5163
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login suit:"
+  }, {
+    "name" : "testClass",
+    "value" : "Login suit:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Prod tab:"
+  }, {
+    "name" : "package",
+    "value" : "Login suit:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ce7b6dc1b787fdad.json",
+  "parameterValues" : [ ]
+}

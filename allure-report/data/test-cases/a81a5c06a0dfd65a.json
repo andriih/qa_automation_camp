@@ -1,0 +1,93 @@
+{
+  "uid" : "a81a5c06a0dfd65a",
+  "name" : "Prod tab:",
+  "fullName" : "Login suit:.Prod tab:",
+  "historyId" : "3d50a04477ae2e6396952f87531f6786",
+  "time" : {
+    "start" : 1537126772732,
+    "stop" : 1537126792696,
+    "duration" : 19964
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed: Wait condition must be a promise-like object, function, or a Condition object",
+  "statusTrace" : "TypeError: Wait condition must be a promise-like object, function, or a Condition object\n                    at thenableWebDriverProxy.wait (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\selenium-webdriver\\lib\\webdriver.js:928:13)\n                    at run (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\built\\browser.js:59:33)\n                    at ProtractorBrowser.to.(anonymous function) [as wait] (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\built\\browser.js:67:16)\n                    at ProductsPage.create (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\page_objects\\products.page.js:22:13)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)\n                From: Task: Run it(\"Prod tab:\") in control flow\n                    at UserContext.<anonymous> (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\jasminewd2\\index.js:94:19)\n                    at attempt (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n                    at QueueRunner.run (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n                    at QueueRunner.execute (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n                    at Spec.queueRunnerFactory (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\n                    at Spec.execute (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:526:10)\n                    at UserContext.fn (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:5340:37)\n                    at attempt (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n                    at QueueRunner.run (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n                    at runNext (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n                From asynchronous test: \n                Error\n                    at Suite.describe (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\tests\\login.spec.js:21:5)\n                    at addSpecsToSuite (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n                    at Env.describe (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n                    at describe (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n                    at Object.<anonymous> (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\tests\\login.spec.js:5:1)\n                    at Module._compile (internal/modules/cjs/loader.js:689:30)\n                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n                    at Module.load (internal/modules/cjs/loader.js:599:32)\n                    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Failed: Wait condition must be a promise-like object, function, or a Condition object",
+    "statusTrace" : "TypeError: Wait condition must be a promise-like object, function, or a Condition object\n                    at thenableWebDriverProxy.wait (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\selenium-webdriver\\lib\\webdriver.js:928:13)\n                    at run (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\built\\browser.js:59:33)\n                    at ProtractorBrowser.to.(anonymous function) [as wait] (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\built\\browser.js:67:16)\n                    at ProductsPage.create (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\page_objects\\products.page.js:22:13)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)\n                From: Task: Run it(\"Prod tab:\") in control flow\n                    at UserContext.<anonymous> (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\jasminewd2\\index.js:94:19)\n                    at attempt (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n                    at QueueRunner.run (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n                    at QueueRunner.execute (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n                    at Spec.queueRunnerFactory (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\n                    at Spec.execute (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:526:10)\n                    at UserContext.fn (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:5340:37)\n                    at attempt (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n                    at QueueRunner.run (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n                    at runNext (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n                From asynchronous test: \n                Error\n                    at Suite.describe (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\tests\\login.spec.js:21:5)\n                    at addSpecsToSuite (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n                    at Env.describe (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n                    at describe (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n                    at Object.<anonymous> (C:\\Users\\Andrii\\Desktop\\FINAL-DEMO\\qa_automation_camp\\tests\\login.spec.js:5:1)\n                    at Module._compile (internal/modules/cjs/loader.js:689:30)\n                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n                    at Module.load (internal/modules/cjs/loader.js:599:32)\n                    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)",
+    "steps" : [ {
+      "name" : "Open EDS page: ",
+      "time" : {
+        "start" : 1537126772732,
+        "stop" : 1537126780441,
+        "duration" : 7709
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Step 2",
+      "time" : {
+        "start" : 1537126780441,
+        "stop" : 1537126790867,
+        "duration" : 10426
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "15acc946770566bc",
+      "name" : "Screenshot",
+      "source" : "15acc946770566bc.png",
+      "type" : "image/png",
+      "size" : 5163
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login suit:"
+  }, {
+    "name" : "testClass",
+    "value" : "Login suit:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Prod tab:"
+  }, {
+    "name" : "package",
+    "value" : "Login suit:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a81a5c06a0dfd65a.json",
+  "parameterValues" : [ ]
+}

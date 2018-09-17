@@ -1,0 +1,427 @@
+{
+  "uid" : "f6103d08114d3705",
+  "name" : "Prod tab:",
+  "fullName" : "Login suit:.Prod tab:",
+  "historyId" : "3d50a04477ae2e6396952f87531f6786",
+  "time" : {
+    "start" : 1537209795162,
+    "stop" : 1537209827089,
+    "duration" : 31927
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open EDS page: ",
+      "time" : {
+        "start" : 1537209795162,
+        "stop" : 1537209805940,
+        "duration" : 10778
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Step 2",
+      "time" : {
+        "start" : 1537209805940,
+        "stop" : 1537209825067,
+        "duration" : 19127
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "3f78294965c68cc7",
+      "name" : "Screenshot",
+      "source" : "3f78294965c68cc7.png",
+      "type" : "image/png",
+      "size" : 5163
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login suit:"
+  }, {
+    "name" : "testClass",
+    "value" : "Login suit:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Prod tab:"
+  }, {
+    "name" : "package",
+    "value" : "Login suit:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "db64db8575b1426d",
+      "status" : "failed",
+      "statusDetails" : "Failed: ECONNREFUSED connect ECONNREFUSED 127.0.0.1:4444",
+      "time" : {
+        "start" : 1537208393655,
+        "stop" : 1537208401699,
+        "duration" : 8044
+      }
+    }, {
+      "uid" : "86d6981be604c05",
+      "status" : "failed",
+      "statusDetails" : "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.",
+      "time" : {
+        "start" : 1537207942647,
+        "stop" : 1537208006671,
+        "duration" : 64024
+      }
+    }, {
+      "uid" : "84950fb3739b63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537205104842,
+        "stop" : 1537205130578,
+        "duration" : 25736
+      }
+    }, {
+      "uid" : "57c28bed0cd9d516",
+      "status" : "failed",
+      "statusDetails" : "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.",
+      "time" : {
+        "start" : 1537204948480,
+        "stop" : 1537204985804,
+        "duration" : 37324
+      }
+    }, {
+      "uid" : "5be4d49a75dc031f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537204556736,
+        "stop" : 1537204578385,
+        "duration" : 21649
+      }
+    }, {
+      "uid" : "68d8029968e60a45",
+      "status" : "failed",
+      "statusDetails" : "NoSuchElementError: No element found using locator: By(css selector, #navbar > ul > li:nth-child(2) > a)",
+      "time" : {
+        "start" : 1537129018042,
+        "stop" : 1537129043419,
+        "duration" : 25377
+      }
+    }, {
+      "uid" : "5cae09ae481dadce",
+      "status" : "failed",
+      "statusDetails" : "Failed: startTestServer is not defined",
+      "time" : {
+        "start" : 1537128850198,
+        "stop" : 1537128864843,
+        "duration" : 14645
+      }
+    }, {
+      "uid" : "11c27d5d2b54117c",
+      "status" : "failed",
+      "statusDetails" : "Failed: currentUrl is not defined",
+      "time" : {
+        "start" : 1537128468358,
+        "stop" : 1537128483338,
+        "duration" : 14980
+      }
+    }, {
+      "uid" : "ce7b6dc1b787fdad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537127938321,
+        "stop" : 1537127960098,
+        "duration" : 21777
+      }
+    }, {
+      "uid" : "b216f2445325c0d8",
+      "status" : "failed",
+      "statusDetails" : "NoSuchElementError: No element found using locator: By(css selector, #navbar > ul > li:nth-child(2) > a)",
+      "time" : {
+        "start" : 1537127806177,
+        "stop" : 1537127831021,
+        "duration" : 24844
+      }
+    }, {
+      "uid" : "ec530ad363961c4c",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(css selector, #navbar > ul > li:nth-child(2) > a)",
+      "time" : {
+        "start" : 1537127743555,
+        "stop" : 1537127768913,
+        "duration" : 25358
+      }
+    }, {
+      "uid" : "3e7cf5360f4ade0c",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(css selector, #navbar > ul > li:nth-child(2) > a)",
+      "time" : {
+        "start" : 1537127557578,
+        "stop" : 1537127572779,
+        "duration" : 15201
+      }
+    }, {
+      "uid" : "c69ed0005f5fe2c8",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(css selector, #navbar > ul > li:nth-child(2) > a)",
+      "time" : {
+        "start" : 1537127043722,
+        "stop" : 1537127061357,
+        "duration" : 17635
+      }
+    }, {
+      "uid" : "f6e80ed190842fe7",
+      "status" : "failed",
+      "statusDetails" : "Failed: Wait condition must be a promise-like object, function, or a Condition object",
+      "time" : {
+        "start" : 1537126942882,
+        "stop" : 1537126964050,
+        "duration" : 21168
+      }
+    }, {
+      "uid" : "eec2e3263a22c91d",
+      "status" : "failed",
+      "statusDetails" : "Failed: Wait condition must be a promise-like object, function, or a Condition object",
+      "time" : {
+        "start" : 1537126845396,
+        "stop" : 1537126864045,
+        "duration" : 18649
+      }
+    }, {
+      "uid" : "a81a5c06a0dfd65a",
+      "status" : "failed",
+      "statusDetails" : "Failed: Wait condition must be a promise-like object, function, or a Condition object",
+      "time" : {
+        "start" : 1537126772732,
+        "stop" : 1537126792696,
+        "duration" : 19964
+      }
+    }, {
+      "uid" : "3adcce31391d1207",
+      "status" : "failed",
+      "statusDetails" : "Failed: Wait condition must be a promise-like object, function, or a Condition object",
+      "time" : {
+        "start" : 1537126715948,
+        "stop" : 1537126735257,
+        "duration" : 19309
+      }
+    }, {
+      "uid" : "d1c67cd16580902b",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(css selector, #navbar > ul > li:nth-child(2) > a)",
+      "time" : {
+        "start" : 1537126636378,
+        "stop" : 1537126654402,
+        "duration" : 18024
+      }
+    }, {
+      "uid" : "ce82f02035a3407",
+      "status" : "failed",
+      "statusDetails" : "Failed: Wait condition must be a promise-like object, function, or a Condition object",
+      "time" : {
+        "start" : 1537126536838,
+        "stop" : 1537126551958,
+        "duration" : 15120
+      }
+    }, {
+      "uid" : "3a4907a85b0ac8dd",
+      "status" : "failed",
+      "statusDetails" : "Failed: Wait condition must be a promise-like object, function, or a Condition object",
+      "time" : {
+        "start" : 1537126450072,
+        "stop" : 1537126463695,
+        "duration" : 13623
+      }
+    }, {
+      "uid" : "a57c932e80672cd5",
+      "status" : "failed",
+      "statusDetails" : "Failed: Wait condition must be a promise-like object, function, or a Condition object",
+      "time" : {
+        "start" : 1537126357428,
+        "stop" : 1537126375406,
+        "duration" : 17978
+      }
+    }, {
+      "uid" : "5bde872629618b81",
+      "status" : "failed",
+      "statusDetails" : "Failed: header is not defined",
+      "time" : {
+        "start" : 1537126281370,
+        "stop" : 1537126296155,
+        "duration" : 14785
+      }
+    }, {
+      "uid" : "a2e550273d927c77",
+      "status" : "failed",
+      "statusDetails" : "NoSuchElementError: No element found using locator: By(css selector, #navbar > ul > li:nth-child(2) > a)",
+      "time" : {
+        "start" : 1537126171983,
+        "stop" : 1537126187476,
+        "duration" : 15493
+      }
+    }, {
+      "uid" : "c1c79946aee63083",
+      "status" : "failed",
+      "statusDetails" : "NoSuchElementError: No element found using locator: By(css selector, #navbar > ul > li:nth-child(2) > a)",
+      "time" : {
+        "start" : 1537126071754,
+        "stop" : 1537126087495,
+        "duration" : 15741
+      }
+    }, {
+      "uid" : "d56df74b5ef36461",
+      "status" : "failed",
+      "statusDetails" : "NoSuchElementError: No element found using locator: By(css selector, #navbar > ul > li:nth-child(2) > a)",
+      "time" : {
+        "start" : 1537125886251,
+        "stop" : 1537125903047,
+        "duration" : 16796
+      }
+    }, {
+      "uid" : "10ea015db10ecaef",
+      "status" : "failed",
+      "statusDetails" : "Failed: his is not defined",
+      "time" : {
+        "start" : 1537125807557,
+        "stop" : 1537125822092,
+        "duration" : 14535
+      }
+    }, {
+      "uid" : "864ee7cc1edd9e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537125591100,
+        "stop" : 1537125611697,
+        "duration" : 20597
+      }
+    }, {
+      "uid" : "c64f6dce473b9c7e",
+      "status" : "failed",
+      "statusDetails" : "NoSuchElementError: No element found using locator: By(css selector, #navbar > ul > li:nth-child(2) > a)",
+      "time" : {
+        "start" : 1537125466356,
+        "stop" : 1537125479978,
+        "duration" : 13622
+      }
+    }, {
+      "uid" : "65fc41191c3a9655",
+      "status" : "failed",
+      "statusDetails" : "NoSuchElementError: No element found using locator: By(css selector, #navbar > ul > li:nth-child(2) > a)",
+      "time" : {
+        "start" : 1537125391962,
+        "stop" : 1537125406591,
+        "duration" : 14629
+      }
+    }, {
+      "uid" : "ca2a85597d07a891",
+      "status" : "failed",
+      "statusDetails" : "NoSuchElementError: No element found using locator: By(css selector, #navbar > ul > li:nth-child(2) > a)",
+      "time" : {
+        "start" : 1537125254610,
+        "stop" : 1537125268803,
+        "duration" : 14193
+      }
+    }, {
+      "uid" : "8833f5419b8324c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537124575214,
+        "stop" : 1537124595431,
+        "duration" : 20217
+      }
+    }, {
+      "uid" : "1058e87fc27ae435",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(css selector, #navbar > ul > li:nth-child(2) > a)",
+      "time" : {
+        "start" : 1537121791517,
+        "stop" : 1537121821663,
+        "duration" : 30146
+      }
+    }, {
+      "uid" : "2b3424c61cde2fc7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537121609910,
+        "stop" : 1537121639048,
+        "duration" : 29138
+      }
+    }, {
+      "uid" : "2fb4e182e5ba2f10",
+      "status" : "failed",
+      "statusDetails" : "Failed: Error while waiting for Protractor to sync with the page: \"both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details\"",
+      "time" : {
+        "start" : 1537121470402,
+        "stop" : 1537121472323,
+        "duration" : 1921
+      }
+    }, {
+      "uid" : "c5aa6da918e986c1",
+      "status" : "failed",
+      "statusDetails" : "Failed: Error while waiting for Protractor to sync with the page: \"both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details\"",
+      "time" : {
+        "start" : 1537121392894,
+        "stop" : 1537121394686,
+        "duration" : 1792
+      }
+    }, {
+      "uid" : "b0b7e5eca96292c8",
+      "status" : "failed",
+      "statusDetails" : "Failed: Error while waiting for Protractor to sync with the page: \"both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details\"",
+      "time" : {
+        "start" : 1537121288081,
+        "stop" : 1537121290060,
+        "duration" : 1979
+      }
+    }, {
+      "uid" : "8ccd0fe9c40fd06",
+      "status" : "failed",
+      "statusDetails" : "Failed: Error while waiting for Protractor to sync with the page: \"both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details\"",
+      "time" : {
+        "start" : 1537121117956,
+        "stop" : 1537121120359,
+        "duration" : 2403
+      }
+    }, {
+      "uid" : "5313da7030643ccf",
+      "status" : "failed",
+      "statusDetails" : "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.",
+      "time" : {
+        "start" : 1537120945848,
+        "stop" : 1537121078439,
+        "duration" : 132591
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f6103d08114d3705.json",
+  "parameterValues" : [ ]
+}

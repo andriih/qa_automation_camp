@@ -1,0 +1,74 @@
+{
+  "uid" : "2ab9e6ec020009fd",
+  "name" : "Login pass test",
+  "fullName" : "Login suit:.Login pass test",
+  "historyId" : "59c66701eff4bae48682a98e5be0f13c",
+  "time" : {
+    "start" : 1537127796905,
+    "stop" : 1537127806176,
+    "duration" : 9271
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Step 1",
+      "time" : {
+        "start" : 1537127796908,
+        "stop" : 1537127804430,
+        "duration" : 7522
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "14842de982781ee0",
+      "name" : "Screenshot",
+      "source" : "14842de982781ee0.png",
+      "type" : "image/png",
+      "size" : 5163
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login suit:"
+  }, {
+    "name" : "testClass",
+    "value" : "Login suit:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login pass test"
+  }, {
+    "name" : "package",
+    "value" : "Login suit:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2ab9e6ec020009fd.json",
+  "parameterValues" : [ ]
+}

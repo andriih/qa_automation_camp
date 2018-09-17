@@ -1,6 +1,6 @@
 // An example configuration file
 exports.config = {
-  //restartBrowserBetweenTests: true,
+  restartBrowserBetweenTests: true,
   // The address of a running selenium server.
   seleniumAddress: 'http://localhost:4444/wd/hub',
   // Capabilities to be passed to the webdriver instance.
@@ -16,7 +16,7 @@ exports.config = {
   // Options to be passed to Jasmine-node.
   jasmineNodeOpts: {
     showColors: true, // Use colors in the command line report.
-    defaultTimeoutInterval: 120000
+    defaultTimeoutInterval: 30000
   },
 
   onPrepare: function () {
