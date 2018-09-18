@@ -1,16 +1,26 @@
 browser.ignoreSynchronization = true;
+
 let HeaderPage = require("./header.page");
 let WebButton = require('../controls/web.button');
 let WebInput = require('../controls/web.Input');
 
+let EC = protractor.ExpectedConditions;
+
 let addProdLinkLocator = "div.form-group > a.section-body__actions >span:nth-child(2)";
 let productNameFieldLocator = "product-name";
-let searchFamilyInputLocator = 'div.dropdown ul :nth-child(1)';
-let productDropdownNameLocator = "div.dropdown span";
+let searchFamilyInputLocator = '#change-product-family-list > dropdown-gds > ss-multiselect-dropdown > div > ul > li.dropdown-item.search > div > input';
+let productDropdownNameBtnLocator = 'button.dropdown-toggle.form-control';
+let productFamilySearchResultLocator = '#change-product-family-list > dropdown-gds > ss-multiselect-dropdown > div > ul > li:nth-child(3) > a';
+
+let productSaveBtnLocator = "#saveProductAdd";
+
+let toasterPopupLocator = "#toast-container > div > div:nth-child(2) > span";
+let toasterErrorLocator = "#toast-container > div > div:nth-child(3) > span";
+
+let productTitleAfterCreationLocator = "body > app > main > administration > div.container > div > div > projects > div > div.section > div.col-md-12.section__right > project > div > div.section-heading > div > div.section-title__details > div.section-title__details-name";
 
 class ProductsPage {
     constructor(){
-        browser.waitForAngularEnabled(false);
         this.header = new HeaderPage();
     }
 
@@ -23,39 +33,74 @@ class ProductsPage {
     }
 
     getProductDropdownNameBtn(){
-        //return new WebButton(element(by.css(productDropdownNameLocator)),"Family Product Dropdown Button");
-       return new WebButton(element(by.xpath('//*[@id="change-product-family-list"]/dropdown-gds/ss-multiselect-dropdown/div/ul/li[3]/a/span')),"Select Family Name");
+       return new WebButton(element(by.css(productDropdownNameBtnLocator)),"Select Family Name");
     }
     
     getSearchFamily(){
         return new WebInput(element(by.css(searchFamilyInputLocator)),"Family Product Search Input");
     }
 
-   
-
-    async create(){
-        
-    await browser.sleep(3000);
-    await this.header.getAdministrationMenu().click();   
-    
-    await browser.sleep(3000);
-    await this.getAddProdLink().click();
-
-    await browser.sleep(3000);
-    await this.getProductNameField().sendKeys("Valera");
-    
-    await browser.sleep(10 * 1000);
-    await this.getProductDropdownNameBtn().click();
-    
-    await browser.sleep(3000);
-    
-    await this.getSearchFamily().sendKeys("AQA");
-    //await this.getSearchFamily().click();
-
-    await browser.sleep(3000);
+    getProductFamilySearchResult(){
+        return new WebButton(element(by.css(productFamilySearchResultLocator)), "Search results");
     }
 
+    getProductSaveBtn(){
+        return new WebButton(element(by.css(productSaveBtnLocator)), "Save Button");
+    }
 
+    getToasterPop(){
+        return element(by.css(toasterPopupLocator));
+    }
+
+    getProductTitleAfterCreation(){
+        return element(by.css(productTitleAfterCreation));
+    }
+    
+    
+
+    async create(randomName){
+
+    await browser.waitForAngularEnabled(false);    
+    
+    await browser.wait(EC.visibilityOf($("#navbar > ul > li:nth-child(2) > a")),5000);
+    await this.header.getAdministrationMenu().click("");   
+    
+    await browser.wait(EC.visibilityOf($("#navbar > ul > li:nth-child(1) > a")),10 * 1000);
+    await this.getAddProdLink().click();
+
+    
+    await this.getProductNameField().sendKeys(randomName);
+    
+    await browser.wait(EC.visibilityOf($(productDropdownNameBtnLocator)),5 * 10000);
+    await this.getProductDropdownNameBtn().click();
+    
+    
+    
+    await browser.wait(EC.visibilityOf($(searchFamilyInputLocator)),5 * 10000);
+    await this.getSearchFamily().sendKeys("AQA");
+    
+    await browser.wait(EC.visibilityOf($(productFamilySearchResultLocator)),5 * 10000);
+    await this.getProductFamilySearchResult().click();
+
+    await this.getProductSaveBtn().click();
+    
+    }
+
+    async waitForPopup(){
+        await browser.wait(EC.visibilityOf(this.getToasterPop(), 15000));
+    }
+
+    async verifyFlag(){
+        await browser.waitForAngularEnabled(false); 
+        await this.waitForPopup();
+        
+        return await this.getProductSaveBtn().isDisplayed();
+    
+        // await browser.waitForAngularEnabled(false); 
+        // console.log(prod);
+        // let elem = element(by.xpath(`//div[contains(text(), "${prod}")]`)); 
+        // expect(await browser.wait(EC.visibilityOf($(elem))) ).toEqual(true);
+    }
 }
 
 module.exports =  ProductsPage;

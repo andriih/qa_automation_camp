@@ -5,9 +5,7 @@ class HeaderPage {
     constructor(){}
 
     getProductsMenu(){
-        //browser.waitForAngularEnabled(false);
-        return element(by.css(productsMenuLocator));
-        
+        return element(by.css(productsMenuLocator));  
     }
 
     getAdministrationMenu(){

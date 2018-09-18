@@ -1,0 +1,770 @@
+{
+  "uid" : "935422da197afadd",
+  "name" : "Login pass test",
+  "fullName" : "Login suit:.Login pass test",
+  "historyId" : "59c66701eff4bae48682a98e5be0f13c",
+  "time" : {
+    "start" : 1537307366286,
+    "stop" : 1537307376831,
+    "duration" : 10545
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Step 1",
+      "time" : {
+        "start" : 1537307366289,
+        "stop" : 1537307374662,
+        "duration" : 8373
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "8f2865535dca25a9",
+      "name" : "Screenshot",
+      "source" : "8f2865535dca25a9.png",
+      "type" : "image/png",
+      "size" : 5163
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login suit:"
+  }, {
+    "name" : "testClass",
+    "value" : "Login suit:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login pass test"
+  }, {
+    "name" : "package",
+    "value" : "Login suit:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "217a3ad047348b60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537301721984,
+        "stop" : 1537301731934,
+        "duration" : 9950
+      }
+    }, {
+      "uid" : "6a21e58b4b8d89ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537301034272,
+        "stop" : 1537301044931,
+        "duration" : 10659
+      }
+    }, {
+      "uid" : "fe5f94c206c9fec9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537300856755,
+        "stop" : 1537300867090,
+        "duration" : 10335
+      }
+    }, {
+      "uid" : "891bcd8b00f984e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537299996322,
+        "stop" : 1537300006164,
+        "duration" : 9842
+      }
+    }, {
+      "uid" : "c5bd947477a025eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537298896389,
+        "stop" : 1537298906336,
+        "duration" : 9947
+      }
+    }, {
+      "uid" : "61a463cbfb96415d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537298486773,
+        "stop" : 1537298496716,
+        "duration" : 9943
+      }
+    }, {
+      "uid" : "c96d231a791dc459",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537298437502,
+        "stop" : 1537298447066,
+        "duration" : 9564
+      }
+    }, {
+      "uid" : "60b1c9db407ec168",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537298039920,
+        "stop" : 1537298050488,
+        "duration" : 10568
+      }
+    }, {
+      "uid" : "6d78cf69d15e8e5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537297892957,
+        "stop" : 1537297902740,
+        "duration" : 9783
+      }
+    }, {
+      "uid" : "f6bdea718a12d398",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537297824531,
+        "stop" : 1537297835339,
+        "duration" : 10808
+      }
+    }, {
+      "uid" : "9a065b645a760494",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537297167259,
+        "stop" : 1537297177205,
+        "duration" : 9946
+      }
+    }, {
+      "uid" : "b8a48e8e76dcf29c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537297082374,
+        "stop" : 1537297092317,
+        "duration" : 9943
+      }
+    }, {
+      "uid" : "91643b8aeeaedc24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537296565340,
+        "stop" : 1537296576127,
+        "duration" : 10787
+      }
+    }, {
+      "uid" : "22167fe4e1943d41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537296282082,
+        "stop" : 1537296291149,
+        "duration" : 9067
+      }
+    }, {
+      "uid" : "8ec86a60eae56300",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537296205912,
+        "stop" : 1537296215691,
+        "duration" : 9779
+      }
+    }, {
+      "uid" : "c66fb72c0833897",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537296141731,
+        "stop" : 1537296151755,
+        "duration" : 10024
+      }
+    }, {
+      "uid" : "d5661f53020138de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537295921282,
+        "stop" : 1537295930504,
+        "duration" : 9222
+      }
+    }, {
+      "uid" : "7866d750674ac24b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537295814427,
+        "stop" : 1537295824030,
+        "duration" : 9603
+      }
+    }, {
+      "uid" : "54c4daf5245a789c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537295737583,
+        "stop" : 1537295747660,
+        "duration" : 10077
+      }
+    }, {
+      "uid" : "69c098d05c0a07a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537295510992,
+        "stop" : 1537295520286,
+        "duration" : 9294
+      }
+    }, {
+      "uid" : "b951c2d188a0519b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537295390182,
+        "stop" : 1537295400293,
+        "duration" : 10111
+      }
+    }, {
+      "uid" : "696575eb39fe607d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537295327367,
+        "stop" : 1537295337445,
+        "duration" : 10078
+      }
+    }, {
+      "uid" : "7074a78be8daa9fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537294788224,
+        "stop" : 1537294798526,
+        "duration" : 10302
+      }
+    }, {
+      "uid" : "5c95e1b5af7ae573",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537294613900,
+        "stop" : 1537294623851,
+        "duration" : 9951
+      }
+    }, {
+      "uid" : "169ab278433d7b17",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537294535596,
+        "stop" : 1537294545702,
+        "duration" : 10106
+      }
+    }, {
+      "uid" : "78d46c99d71be1cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537294475190,
+        "stop" : 1537294486198,
+        "duration" : 11008
+      }
+    }, {
+      "uid" : "872149a4e1c08c13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537294233549,
+        "stop" : 1537294244295,
+        "duration" : 10746
+      }
+    }, {
+      "uid" : "193682b9d147f8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537293825984,
+        "stop" : 1537293836187,
+        "duration" : 10203
+      }
+    }, {
+      "uid" : "cc97d96e6ad0b677",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537293701179,
+        "stop" : 1537293710624,
+        "duration" : 9445
+      }
+    }, {
+      "uid" : "91abde152972624a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537293615717,
+        "stop" : 1537293626731,
+        "duration" : 11014
+      }
+    }, {
+      "uid" : "ed7c78f6b687654d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537293271186,
+        "stop" : 1537293280394,
+        "duration" : 9208
+      }
+    }, {
+      "uid" : "48bbc01f8af82f44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537293205264,
+        "stop" : 1537293214898,
+        "duration" : 9634
+      }
+    }, {
+      "uid" : "4ed9402355ca79f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537216194960,
+        "stop" : 1537216205448,
+        "duration" : 10488
+      }
+    }, {
+      "uid" : "825dea32ffa1341c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537215992392,
+        "stop" : 1537216003955,
+        "duration" : 11563
+      }
+    }, {
+      "uid" : "5b7ed80513a984a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537214753653,
+        "stop" : 1537214764388,
+        "duration" : 10735
+      }
+    }, {
+      "uid" : "3e62b03c14094bfd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537214686531,
+        "stop" : 1537214696722,
+        "duration" : 10191
+      }
+    }, {
+      "uid" : "ad36b733754bf465",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537214293758,
+        "stop" : 1537214304342,
+        "duration" : 10584
+      }
+    }, {
+      "uid" : "7b117330b4737154",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537214221758,
+        "stop" : 1537214230825,
+        "duration" : 9067
+      }
+    }, {
+      "uid" : "37e33ce283c2bdbf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537214154813,
+        "stop" : 1537214164064,
+        "duration" : 9251
+      }
+    }, {
+      "uid" : "54b1555f8a50fe96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537214060425,
+        "stop" : 1537214070972,
+        "duration" : 10547
+      }
+    }, {
+      "uid" : "9464ce9775fd78e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537213704972,
+        "stop" : 1537213715150,
+        "duration" : 10178
+      }
+    }, {
+      "uid" : "83853bb782ee0095",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537213521408,
+        "stop" : 1537213530834,
+        "duration" : 9426
+      }
+    }, {
+      "uid" : "23a57c5d8e4b9dd1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537213002542,
+        "stop" : 1537213013043,
+        "duration" : 10501
+      }
+    }, {
+      "uid" : "694122649a4ffa61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537211526442,
+        "stop" : 1537211536523,
+        "duration" : 10081
+      }
+    }, {
+      "uid" : "7fa28b13aa10655a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537211428973,
+        "stop" : 1537211440678,
+        "duration" : 11705
+      }
+    }, {
+      "uid" : "5a079d26bba34768",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537210892648,
+        "stop" : 1537210906198,
+        "duration" : 13550
+      }
+    }, {
+      "uid" : "cb68bf13e6b4ffc4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537210375962,
+        "stop" : 1537210386500,
+        "duration" : 10538
+      }
+    }, {
+      "uid" : "a1b814f28cfef246",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537209786218,
+        "stop" : 1537209795162,
+        "duration" : 8944
+      }
+    }, {
+      "uid" : "1ea0f9bc74e87dc0",
+      "status" : "failed",
+      "statusDetails" : "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.",
+      "time" : {
+        "start" : 1537208361376,
+        "stop" : 1537208393655,
+        "duration" : 32279
+      }
+    }, {
+      "uid" : "5adab507e2041271",
+      "status" : "failed",
+      "statusDetails" : "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.",
+      "time" : {
+        "start" : 1537207852593,
+        "stop" : 1537207942646,
+        "duration" : 90053
+      }
+    }, {
+      "uid" : "3a0b5f115b21e5be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537205094443,
+        "stop" : 1537205104842,
+        "duration" : 10399
+      }
+    }, {
+      "uid" : "b95dbdaeadf4c96f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537204937710,
+        "stop" : 1537204948480,
+        "duration" : 10770
+      }
+    }, {
+      "uid" : "459f2c77201e0a70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537204546560,
+        "stop" : 1537204556736,
+        "duration" : 10176
+      }
+    }, {
+      "uid" : "b0a9aa9f2647bb5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537129007619,
+        "stop" : 1537129018042,
+        "duration" : 10423
+      }
+    }, {
+      "uid" : "b0010efbce0b5b6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537128837960,
+        "stop" : 1537128850197,
+        "duration" : 12237
+      }
+    }, {
+      "uid" : "dfab0bc03b148f2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537128456349,
+        "stop" : 1537128468357,
+        "duration" : 12008
+      }
+    }, {
+      "uid" : "34e71e06052b5f2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537127927754,
+        "stop" : 1537127938321,
+        "duration" : 10567
+      }
+    }, {
+      "uid" : "d6278de13c5037e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537127796905,
+        "stop" : 1537127806176,
+        "duration" : 9271
+      }
+    }, {
+      "uid" : "b1d011d1e0d6157d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537127732207,
+        "stop" : 1537127743555,
+        "duration" : 11348
+      }
+    }, {
+      "uid" : "c87a5c7475af279",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537127546450,
+        "stop" : 1537127557578,
+        "duration" : 11128
+      }
+    }, {
+      "uid" : "3e663b1a5db5c9f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537127031681,
+        "stop" : 1537127043721,
+        "duration" : 12040
+      }
+    }, {
+      "uid" : "90db89e4ff4d0337",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537126932478,
+        "stop" : 1537126942881,
+        "duration" : 10403
+      }
+    }, {
+      "uid" : "559eb907b7f77b41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537126834654,
+        "stop" : 1537126845395,
+        "duration" : 10741
+      }
+    }, {
+      "uid" : "d888c73f166d00b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537126758706,
+        "stop" : 1537126772732,
+        "duration" : 14026
+      }
+    }, {
+      "uid" : "acaced7301629399",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537126702682,
+        "stop" : 1537126715948,
+        "duration" : 13266
+      }
+    }, {
+      "uid" : "3ec5c9236e42388c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537126625416,
+        "stop" : 1537126636378,
+        "duration" : 10962
+      }
+    }, {
+      "uid" : "f337e88b5396ca67",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537126526917,
+        "stop" : 1537126536838,
+        "duration" : 9921
+      }
+    }, {
+      "uid" : "da2e7a612bde3ba1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537126427669,
+        "stop" : 1537126450072,
+        "duration" : 22403
+      }
+    }, {
+      "uid" : "78f8c52f72c6f244",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537126346578,
+        "stop" : 1537126357428,
+        "duration" : 10850
+      }
+    }, {
+      "uid" : "b62d49f4faacece8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537126258086,
+        "stop" : 1537126281369,
+        "duration" : 23283
+      }
+    }, {
+      "uid" : "6c8ac5dff609eaf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537126161859,
+        "stop" : 1537126171983,
+        "duration" : 10124
+      }
+    }, {
+      "uid" : "fd7327c4130cd31d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537126049112,
+        "stop" : 1537126071754,
+        "duration" : 22642
+      }
+    }, {
+      "uid" : "708aa2ee5a9de403",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537125875542,
+        "stop" : 1537125886251,
+        "duration" : 10709
+      }
+    }, {
+      "uid" : "fc65b4cd4ceefbdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537125797936,
+        "stop" : 1537125807557,
+        "duration" : 9621
+      }
+    }, {
+      "uid" : "5eb5214836838b19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537125582502,
+        "stop" : 1537125591100,
+        "duration" : 8598
+      }
+    }, {
+      "uid" : "cf4ddebc43b05e59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537125457311,
+        "stop" : 1537125466355,
+        "duration" : 9044
+      }
+    }, {
+      "uid" : "81e0cfdfe53f6b94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537125383028,
+        "stop" : 1537125391961,
+        "duration" : 8933
+      }
+    }, {
+      "uid" : "2a9151a74b562507",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537125244076,
+        "stop" : 1537125254610,
+        "duration" : 10534
+      }
+    }, {
+      "uid" : "bbbff95d2f5ebc2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537124565390,
+        "stop" : 1537124575214,
+        "duration" : 9824
+      }
+    }, {
+      "uid" : "15d7e0bec493e467",
+      "status" : "failed",
+      "statusDetails" : "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.",
+      "time" : {
+        "start" : 1537121747393,
+        "stop" : 1537121791517,
+        "duration" : 44124
+      }
+    }, {
+      "uid" : "bcb160e7fe1787cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537121590360,
+        "stop" : 1537121609910,
+        "duration" : 19550
+      }
+    }, {
+      "uid" : "dd4116ae54843709",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537121443474,
+        "stop" : 1537121470402,
+        "duration" : 26928
+      }
+    }, {
+      "uid" : "df32931f35f69e",
+      "status" : "failed",
+      "statusDetails" : "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.",
+      "time" : {
+        "start" : 1537121326964,
+        "stop" : 1537121392894,
+        "duration" : 65930
+      }
+    }, {
+      "uid" : "9ef1b21726a79716",
+      "status" : "failed",
+      "statusDetails" : "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.",
+      "time" : {
+        "start" : 1537121246005,
+        "stop" : 1537121288081,
+        "duration" : 42076
+      }
+    }, {
+      "uid" : "e623731755221ab9",
+      "status" : "failed",
+      "statusDetails" : "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.",
+      "time" : {
+        "start" : 1537121084452,
+        "stop" : 1537121117956,
+        "duration" : 33504
+      }
+    }, {
+      "uid" : "4ea68005581baa00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537120886435,
+        "stop" : 1537120945848,
+        "duration" : 59413
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "935422da197afadd.json",
+  "parameterValues" : [ ]
+}
