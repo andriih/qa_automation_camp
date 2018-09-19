@@ -1,15 +1,5 @@
 [ {
-  "uid" : "5fe06871bff52577",
-  "name" : "Login pass test",
-  "time" : {
-    "start" : 1537343522192,
-    "stop" : 1537343522194,
-    "duration" : 2
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "5c34a2070a52d42b",
+  "uid" : "1e60e46c083e7324",
   "name" : "Prod tab:",
   "time" : {
     "start" : 1537341439050,
@@ -19,27 +9,7 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4f976d4429e21491",
-  "name" : "Verify the ability to edit already created product:",
-  "time" : {
-    "start" : 1537343543334,
-    "stop" : 1537343568622,
-    "duration" : 25288
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "35f8c7e8b4256322",
-  "name" : "Verify new Product creation:",
-  "time" : {
-    "start" : 1537343522202,
-    "stop" : 1537343543334,
-    "duration" : 21132
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "741b60015ae80cb4",
+  "uid" : "bc090bfde4a3fa0f",
   "name" : "encountered a declaration exception",
   "time" : {
     "start" : 1537343330230,
@@ -47,5 +17,35 @@
     "duration" : 3024
   },
   "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4cc7d5d7db5c72c7",
+  "name" : "Verify the ability to edit already created product:",
+  "time" : {
+    "start" : 1537362238592,
+    "stop" : 1537362264834,
+    "duration" : 26242
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82b24d134b07d8eb",
+  "name" : "Verify new Product creation:",
+  "time" : {
+    "start" : 1537362217566,
+    "stop" : 1537362238591,
+    "duration" : 21025
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af35dcbed5bd178b",
+  "name" : "Login pass test",
+  "time" : {
+    "start" : 1537362217554,
+    "stop" : 1537362217557,
+    "duration" : 3
+  },
+  "status" : "skipped",
   "severity" : "normal"
 } ]

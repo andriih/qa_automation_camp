@@ -3,6 +3,7 @@ browser.ignoreSynchronization = true;
 let HeaderPage = require("./header.page");
 let WebButton = require('../controls/web.button');
 let WebInput = require('../controls/web.Input');
+let WebDropdown = require('../controls/web.dropdown');
 
 let EC = protractor.ExpectedConditions;
 
@@ -18,7 +19,11 @@ let toasterPopupLocator = "#toast-container > div > div:nth-child(2) > span";
 let toasterErrorLocator = "#toast-container > div > div:nth-child(3) > span";
 
 let searchProductLocator = "div.section__left  input.form-control";
-let selectedListItemLocator = "ul.preview-list > li.preview-list__item.selected>a";
+let selectedListItemLocator = "body > app > main > administration > div.container > div > div > projects > div > div.section > div.section__left > div.col-md-12.section-body.preview-list__wrapper.ps-container.ps-theme-default > ul > li > a";
+
+let editBtnLocator = 'button.gds-edit-icon';
+let saveBtnLocator = "#saveProductEdit";
+
 
 class ProductsPage {
     constructor(){
@@ -64,6 +69,15 @@ class ProductsPage {
     getSelectedListItem(){
         return new WebButton(element(by.css(selectedListItemLocator)), "Selected list item Button");
     }
+
+    getEditBtn(){
+        return new WebButton(element(by.css(editBtnLocator)), "Selected list item Button");
+    }
+
+    getSaveBtn(){
+        return new WebButton(element(by.css(saveBtnLocator)), "Selected list item Button");
+    }
+
     
 
     async create(randomName){
@@ -111,10 +125,14 @@ class ProductsPage {
 
         await this.getSearchProductInput().sendKeys(randomName);
 
+        await browser.wait(EC.visibilityOf($(selectedListItemLocator)),10*1000);      
+        await this.getSelectedListItem().click();
 
-        await browser.wait(EC.visibilityOf($(`//*[text()='${randomName}']`)),10*1000);
-        await this.getSelectedListItem.click();
-        
+        await this.getEditBtn().click();
+
+        await this.getProductNameField().sendKeys(randomName+"_EDITED");
+
+        await this.getSaveBtn().click();
         
         await browser.sleep(5000);
     }
