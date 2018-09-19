@@ -48,6 +48,23 @@ describe('Product suit:', ()=>{
             let productsPage =  await loginPage.login('andrii.hnatyshyn@gmail.com','+V2fQfyfmgr');
 
             await productsPage.edit(names[names.length-1]);
+
+            await productsPage.delete(names[names.length-1]);
+        })();
+    });
+
+    it('Verify the ability to delete already created product:', async()=>{
+        await allure.createStep('Open EDS page: ', async () =>{  
+            //await browser.wait(EC.urlIs('http://eds_university.eleks.com/'),5000);
+            browser.sleep(5000);
+            await loginPage.open('http://eds_university.eleks.com/');
+        })();
+
+        await allure.createStep('Open already existing Product', async () =>{  
+            await browser.sleep(5000);
+            let productsPage =  await loginPage.login('andrii.hnatyshyn@gmail.com','+V2fQfyfmgr')
+            
+            await productsPage.delete(names[names.length-1]);
         })();
     });
 });

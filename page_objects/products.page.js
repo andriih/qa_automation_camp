@@ -24,6 +24,8 @@ let selectedListItemLocator = "body > app > main > administration > div.containe
 let editBtnLocator = 'button.gds-edit-icon';
 let saveBtnLocator = "#saveProductEdit";
 
+let deleteBtnLocator = "button.gds-delete-icon";
+
 
 class ProductsPage {
     constructor(){
@@ -78,6 +80,9 @@ class ProductsPage {
         return new WebButton(element(by.css(saveBtnLocator)), "Selected list item Button");
     }
 
+    getDeleteBtn(){
+        return new WebButton(element(by.css(deleteBtnLocator)), "Selected list item Button");
+    }
     
 
     async create(randomName){
@@ -134,6 +139,24 @@ class ProductsPage {
 
         await this.getSaveBtn().click();
         
+        await browser.sleep(5000);
+    }
+
+    async delete(randomName){
+        await browser.waitForAngularEnabled(false);    
+    
+        await browser.wait(EC.visibilityOf($("#navbar > ul > li:nth-child(2) > a")),5000);
+        await this.header.getAdministrationMenu().click();   
+    
+
+        await this.getSearchProductInput().sendKeys(randomName);
+
+        await browser.wait(EC.visibilityOf($(selectedListItemLocator)),10*1000);      
+        await this.getSelectedListItem().click();
+
+        await browser.wait(EC.visibilityOf($(deleteBtnLocator)),10*1000);  
+        await this.getDeleteBtn().click();
+
         await browser.sleep(5000);
     }
 
