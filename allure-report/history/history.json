@@ -3,22 +3,23 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
+      "skipped" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f44dea6b9d8ad1e1",
-      "status" : "passed",
+      "uid" : "5fe06871bff52577",
+      "status" : "skipped",
+      "statusDetails" : "This test was ignored",
       "time" : {
-        "start" : 1537340495403,
-        "stop" : 1537340502800,
-        "duration" : 7397
+        "start" : 1537343522192,
+        "stop" : 1537343522194,
+        "duration" : 2
       }
     } ]
   },
-  "3d50a04477ae2e6396952f87531f6786" : {
+  "eb7df68afc34217e53cb8ca5c63b5300" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -28,12 +29,70 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "22e9e8b2e5f63c33",
+      "uid" : "35f8c7e8b4256322",
       "status" : "passed",
       "time" : {
-        "start" : 1537340502800,
-        "stop" : 1537340523081,
-        "duration" : 20281
+        "start" : 1537343522202,
+        "stop" : 1537343543334,
+        "duration" : 21132
+      }
+    } ]
+  },
+  "d8f6e4a229448915011bcb2774175f32" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "741b60015ae80cb4",
+      "status" : "failed",
+      "statusDetails" : "ReferenceError: Xit is not defined",
+      "time" : {
+        "start" : 1537343330230,
+        "stop" : 1537343333254,
+        "duration" : 3024
+      }
+    } ]
+  },
+  "5e7a3b547fff143c0ce1aa03f769ce8f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5c34a2070a52d42b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537341439050,
+        "stop" : 1537341460264,
+        "duration" : 21214
+      }
+    } ]
+  },
+  "9b6830702e61d0b60be3dd8af8a24667" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4f976d4429e21491",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537343543334,
+        "stop" : 1537343568622,
+        "duration" : 25288
       }
     } ]
   }

@@ -17,7 +17,8 @@ let productSaveBtnLocator = "#saveProductAdd";
 let toasterPopupLocator = "#toast-container > div > div:nth-child(2) > span";
 let toasterErrorLocator = "#toast-container > div > div:nth-child(3) > span";
 
-let productTitleAfterCreationLocator = "body > app > main > administration > div.container > div > div > projects > div > div.section > div.col-md-12.section__right > project > div > div.section-heading > div > div.section-title__details > div.section-title__details-name";
+let searchProductLocator = "div.section__left  input.form-control";
+let selectedListItemLocator = "ul.preview-list > li.preview-list__item.selected>a";
 
 class ProductsPage {
     constructor(){
@@ -56,6 +57,13 @@ class ProductsPage {
         return element(by.css(productTitleAfterCreation));
     }
     
+    getSearchProductInput(){
+        return new WebInput(element(by.css(searchProductLocator)),"Product Search Input");
+    }
+
+    getSelectedListItem(){
+        return new WebButton(element(by.css(selectedListItemLocator)), "Selected list item Button");
+    }
     
 
     async create(randomName){
@@ -91,6 +99,24 @@ class ProductsPage {
         await browser.wait(EC.visibilityOf(this.getToasterPop(), 1000));
 
         expect(await browser.wait(EC.visibilityOf(this.getToasterPop(), 3000)) ).toEqual(true, 'Not valid popup');
+    }
+
+    async edit(randomName){
+
+        await browser.waitForAngularEnabled(false);    
+    
+        await browser.wait(EC.visibilityOf($("#navbar > ul > li:nth-child(2) > a")),5000);
+        await this.header.getAdministrationMenu().click();   
+    
+
+        await this.getSearchProductInput().sendKeys(randomName);
+
+
+        await browser.wait(EC.visibilityOf($(`//*[text()='${randomName}']`)),10*1000);
+        await this.getSelectedListItem.click();
+        
+        
+        await browser.sleep(5000);
     }
 
     

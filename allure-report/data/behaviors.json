@@ -2,26 +2,62 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "Login pass test",
-    "uid" : "f44dea6b9d8ad1e1",
+    "name" : "Prod tab:",
+    "uid" : "5c34a2070a52d42b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1537340495403,
-      "stop" : 1537340502800,
-      "duration" : 7397
+      "start" : 1537341439050,
+      "stop" : 1537341460264,
+      "duration" : 21214
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Prod tab:",
-    "uid" : "22e9e8b2e5f63c33",
+    "name" : "encountered a declaration exception",
+    "uid" : "741b60015ae80cb4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1537343330230,
+      "stop" : 1537343333254,
+      "duration" : 3024
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login pass test",
+    "uid" : "5fe06871bff52577",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1537343522192,
+      "stop" : 1537343522194,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify new Product creation:",
+    "uid" : "35f8c7e8b4256322",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1537340502800,
-      "stop" : 1537340523081,
-      "duration" : 20281
+      "start" : 1537343522202,
+      "stop" : 1537343543334,
+      "duration" : 21132
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify the ability to edit already created product:",
+    "uid" : "4f976d4429e21491",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1537343543334,
+      "stop" : 1537343568622,
+      "duration" : 25288
     },
     "flaky" : true,
     "parameters" : [ ]
