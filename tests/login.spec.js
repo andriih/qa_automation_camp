@@ -34,15 +34,16 @@ describe('Login suit:', ()=>{
         await loginPage.open('http://eds_university.eleks.com/');
     })();
 
-   await allure.createStep('Step 2: Create product', async () =>{
+    await allure.createStep('Step 2: Create product', async () =>{
         await browser.sleep(5000);
         let productsPage =  await loginPage.login('andrii.hnatyshyn@gmail.com','+V2fQfyfmgr');
         await productsPage.create(randomProductName); 
        
-        expect(await productsPage.verifyFlag()).toEqual(true);
+        await productsPage.waitForPopup();
         
-
     })();
        
     });
+
+    
 });

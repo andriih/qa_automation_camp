@@ -87,20 +87,13 @@ class ProductsPage {
     }
 
     async waitForPopup(){
-        await browser.wait(EC.visibilityOf(this.getToasterPop(), 15000));
+        
+        await browser.wait(EC.visibilityOf(this.getToasterPop(), 1000));
+
+        expect(await browser.wait(EC.visibilityOf(this.getToasterPop(), 3000)) ).toEqual(true, 'Not valid popup');
     }
 
-    async verifyFlag(){
-        await browser.waitForAngularEnabled(false); 
-        await this.waitForPopup();
-        
-        return await this.getProductSaveBtn().isDisplayed();
     
-        // await browser.waitForAngularEnabled(false); 
-        // console.log(prod);
-        // let elem = element(by.xpath(`//div[contains(text(), "${prod}")]`)); 
-        // expect(await browser.wait(EC.visibilityOf($(elem))) ).toEqual(true);
-    }
 }
 
 module.exports =  ProductsPage;

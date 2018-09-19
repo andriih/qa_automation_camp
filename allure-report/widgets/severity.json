@@ -1,20 +1,20 @@
 [ {
-  "uid" : "935422da197afadd",
+  "uid" : "f44dea6b9d8ad1e1",
   "name" : "Login pass test",
   "time" : {
-    "start" : 1537307366286,
-    "stop" : 1537307376831,
-    "duration" : 10545
+    "start" : 1537340495403,
+    "stop" : 1537340502800,
+    "duration" : 7397
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ea18490bcde6d6bb",
+  "uid" : "22e9e8b2e5f63c33",
   "name" : "Prod tab:",
   "time" : {
-    "start" : 1537307376831,
-    "stop" : 1537307403667,
-    "duration" : 26836
+    "start" : 1537340502800,
+    "stop" : 1537340523081,
+    "duration" : 20281
   },
   "status" : "passed",
   "severity" : "normal"

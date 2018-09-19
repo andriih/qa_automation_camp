@@ -2,28 +2,28 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "Login pass test",
-    "uid" : "935422da197afadd",
+    "name" : "Prod tab:",
+    "uid" : "22e9e8b2e5f63c33",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1537307366286,
-      "stop" : 1537307376831,
-      "duration" : 10545
+      "start" : 1537340502800,
+      "stop" : 1537340523081,
+      "duration" : 20281
     },
     "flaky" : true,
     "parameters" : [ ]
   }, {
-    "name" : "Prod tab:",
-    "uid" : "ea18490bcde6d6bb",
+    "name" : "Login pass test",
+    "uid" : "f44dea6b9d8ad1e1",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1537307376831,
-      "stop" : 1537307403667,
-      "duration" : 26836
+      "start" : 1537340495403,
+      "stop" : 1537340502800,
+      "duration" : 7397
     },
-    "flaky" : true,
+    "flaky" : false,
     "parameters" : [ ]
   } ]
 }
