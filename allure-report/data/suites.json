@@ -4,40 +4,28 @@
   "children" : [ {
     "name" : "Login suit:",
     "children" : [ {
-      "name" : "Login pass test",
-      "uid" : "6de7848c4ddc7193",
+      "name" : "Login Admin",
+      "uid" : "18988eec60d3d6b3",
       "parentUid" : "bdbc1ff6cbf9b078c589afcbb159fb42",
       "status" : "skipped",
       "time" : {
-        "start" : 1537382978216,
-        "stop" : 1537382978220,
-        "duration" : 4
+        "start" : 1537428400657,
+        "stop" : 1537428400659,
+        "duration" : 2
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
-      "name" : "Login Admin",
-      "uid" : "236ff7b089ca2d55",
-      "parentUid" : "bdbc1ff6cbf9b078c589afcbb159fb42",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1537408242990,
-        "stop" : 1537408242994,
-        "duration" : 4
-      },
-      "flaky" : true,
-      "parameters" : [ ]
-    }, {
       "name" : "Login as Scorer",
-      "uid" : "1926fab73c7d07e9",
+      "uid" : "f21111329f8dd79f",
       "parentUid" : "bdbc1ff6cbf9b078c589afcbb159fb42",
       "status" : "skipped",
       "time" : {
-        "start" : 1537408242994,
-        "stop" : 1537408242997,
-        "duration" : 3
+        "start" : 1537428400659,
+        "stop" : 1537428400660,
+        "duration" : 1
       },
-      "flaky" : true,
+      "flaky" : false,
       "parameters" : [ ]
     } ],
     "uid" : "bdbc1ff6cbf9b078c589afcbb159fb42"
@@ -45,37 +33,37 @@
     "name" : "Product suit:",
     "children" : [ {
       "name" : "Verify new Product creation:",
-      "uid" : "a2cd3834273bea5a",
-      "parentUid" : "2cd343b66cc9b4e2db584f959ca9684b",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1537408243017,
-        "stop" : 1537408243017,
-        "duration" : 0
-      },
-      "flaky" : true,
-      "parameters" : [ ]
-    }, {
-      "name" : "Verify the ability to edit already created product:",
-      "uid" : "4da1cb2eb2245b27",
-      "parentUid" : "2cd343b66cc9b4e2db584f959ca9684b",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1537408243017,
-        "stop" : 1537408243017,
-        "duration" : 0
-      },
-      "flaky" : true,
-      "parameters" : [ ]
-    }, {
-      "name" : "Verify the ability to delete already created product:",
-      "uid" : "fc6b8e18e228a376",
+      "uid" : "b6e8c8000ef0fb5",
       "parentUid" : "2cd343b66cc9b4e2db584f959ca9684b",
       "status" : "passed",
       "time" : {
-        "start" : 1537408243018,
-        "stop" : 1537408271000,
-        "duration" : 27982
+        "start" : 1537428400668,
+        "stop" : 1537428415965,
+        "duration" : 15297
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the ability to edit already created product:",
+      "uid" : "8d72a53b79944399",
+      "parentUid" : "2cd343b66cc9b4e2db584f959ca9684b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537428415966,
+        "stop" : 1537428435684,
+        "duration" : 19718
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the ability to delete already created product:",
+      "uid" : "b3199b5d077c3f66",
+      "parentUid" : "2cd343b66cc9b4e2db584f959ca9684b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537428435684,
+        "stop" : 1537428463748,
+        "duration" : 28064
       },
       "flaky" : true,
       "parameters" : [ ]

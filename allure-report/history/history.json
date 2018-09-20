@@ -1,24 +1,4 @@
 {
-  "59c66701eff4bae48682a98e5be0f13c" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "6de7848c4ddc7193",
-      "status" : "skipped",
-      "statusDetails" : "This test was ignored",
-      "time" : {
-        "start" : 1537382978216,
-        "stop" : 1537382978220,
-        "duration" : 4
-      }
-    } ]
-  },
   "8dc6d1954e7a94e9cf48e834036bb613" : {
     "statistic" : {
       "failed" : 0,
@@ -29,12 +9,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fc6b8e18e228a376",
+      "uid" : "b3199b5d077c3f66",
       "status" : "passed",
       "time" : {
-        "start" : 1537408243018,
-        "stop" : 1537408271000,
-        "duration" : 27982
+        "start" : 1537428435684,
+        "stop" : 1537428463748,
+        "duration" : 28064
+      }
+    } ]
+  },
+  "eb7df68afc34217e53cb8ca5c63b5300" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b6e8c8000ef0fb5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537428400668,
+        "stop" : 1537428415965,
+        "duration" : 15297
       }
     } ]
   },
@@ -42,19 +41,18 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
+      "skipped" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4da1cb2eb2245b27",
-      "status" : "skipped",
-      "statusDetails" : "Temporarily disabled with xit",
+      "uid" : "8d72a53b79944399",
+      "status" : "passed",
       "time" : {
-        "start" : 1537408243017,
-        "stop" : 1537408243017,
-        "duration" : 0
+        "start" : 1537428415966,
+        "stop" : 1537428435684,
+        "duration" : 19718
       }
     } ]
   },
@@ -68,33 +66,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "236ff7b089ca2d55",
+      "uid" : "18988eec60d3d6b3",
       "status" : "skipped",
       "statusDetails" : "This test was ignored",
       "time" : {
-        "start" : 1537408242990,
-        "stop" : 1537408242994,
-        "duration" : 4
-      }
-    } ]
-  },
-  "eb7df68afc34217e53cb8ca5c63b5300" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "a2cd3834273bea5a",
-      "status" : "skipped",
-      "statusDetails" : "Temporarily disabled with xit",
-      "time" : {
-        "start" : 1537408243017,
-        "stop" : 1537408243017,
-        "duration" : 0
+        "start" : 1537428400657,
+        "stop" : 1537428400659,
+        "duration" : 2
       }
     } ]
   },
@@ -108,13 +86,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1926fab73c7d07e9",
+      "uid" : "f21111329f8dd79f",
       "status" : "skipped",
       "statusDetails" : "This test was ignored",
       "time" : {
-        "start" : 1537408242994,
-        "stop" : 1537408242997,
-        "duration" : 3
+        "start" : 1537428400659,
+        "stop" : 1537428400660,
+        "duration" : 1
       }
     } ]
   }

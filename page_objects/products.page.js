@@ -25,7 +25,7 @@ let editBtnLocator = 'button.gds-edit-icon';
 let saveBtnLocator = "#saveProductEdit";
 
 let deleteBtnLocator = "button.gds-delete-icon";
-let deleteBtnInModalSelector = "body > app > main > administration > div.container > div > div > projects > div > div.section > div.col-md-12.section__right > project > confirmation-modal > div > div > div > div.modal-footer > button.btn.gds-btn.gds-ml-1.gds-btn-danger";
+let deleteBtnInModalSelector = 'div.modal-footer button[aria-label="Close"].gds-btn-danger';
 let noResultLocator = "body > app > main > administration > div.container > div > div > projects > div > div.section > div.section__left > div.col-md-12.section-body.preview-list__wrapper.ps-container.ps-theme-default > ul > li > div > p";
 
 
@@ -163,13 +163,14 @@ class ProductsPage {
         await browser.wait(EC.visibilityOf($(deleteBtnLocator)),10*1000);  
         await this.getDeleteBtn().click();
         
-        await browser.wait(EC.visibilityOf($(deleteBtnInModalSelector)),20*1000);
+        await browser.sleep(5*1000);
+       // await browser.wait(EC.visibilityOf($(deleteBtnInModalSelector)),50*1000);
         await this.getInnerDeleteBtn().click();
 
         await browser.wait(EC.visibilityOf(this.getToasterPop(), 1000));
-        
         await this.getSearchProductInput().sendKeys(randomName);
 
+        
 
         await browser.sleep(5*1000);
     }
