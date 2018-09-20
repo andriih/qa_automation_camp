@@ -64,7 +64,7 @@ describe('Product suit:', ()=>{
             await browser.sleep(5000);
             let productsPage =  await loginPage.login('andrii.hnatyshyn@gmail.com','+V2fQfyfmgr')
        
-            await productsPage.delete("Andrii Hnatyshyn_766");
+            await productsPage.delete("Andrii Hnatyshyn_519");
         })();
     });
 });

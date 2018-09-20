@@ -163,7 +163,7 @@ class ProductsPage {
         await browser.wait(EC.visibilityOf($(deleteBtnLocator)),10*1000);  
         await this.getDeleteBtn().click();
         
-        await browser.wait(EC.visibilityOf($('body > app > main > administration > div.container > div > div > projects > div > div.section > div.col-md-12.section__right > project > confirmation-modal > div > div > div > div.modal-footer > button.btn.gds-btn.gds-ml-1.gds-btn-danger')),5000);
+        await browser.wait(EC.visibilityOf($(deleteBtnInModalSelector)),20*1000);
         await this.getInnerDeleteBtn().click();
 
         await browser.wait(EC.visibilityOf(this.getToasterPop(), 1000));

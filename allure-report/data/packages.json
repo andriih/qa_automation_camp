@@ -5,7 +5,7 @@
     "name" : "Login suit:",
     "children" : [ {
       "name" : "Login pass test",
-      "uid" : "c6b0e51ea88dc196",
+      "uid" : "6de7848c4ddc7193",
       "parentUid" : "8629a99bb8f1a4921c63e661b6a62949",
       "status" : "skipped",
       "time" : {
@@ -17,25 +17,25 @@
       "parameters" : [ ]
     }, {
       "name" : "Login Admin",
-      "uid" : "bb17a6f3bda85bd9",
+      "uid" : "236ff7b089ca2d55",
       "parentUid" : "8629a99bb8f1a4921c63e661b6a62949",
       "status" : "skipped",
       "time" : {
-        "start" : 1537404553925,
-        "stop" : 1537404553929,
+        "start" : 1537408242990,
+        "stop" : 1537408242994,
         "duration" : 4
       },
       "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "Login as Scorer",
-      "uid" : "426c9adba78e1a9f",
+      "uid" : "1926fab73c7d07e9",
       "parentUid" : "8629a99bb8f1a4921c63e661b6a62949",
       "status" : "skipped",
       "time" : {
-        "start" : 1537404553930,
-        "stop" : 1537404553931,
-        "duration" : 1
+        "start" : 1537408242994,
+        "stop" : 1537408242997,
+        "duration" : 3
       },
       "flaky" : true,
       "parameters" : [ ]
@@ -44,38 +44,38 @@
   }, {
     "name" : "Product suit:",
     "children" : [ {
-      "name" : "Verify the ability to edit already created product:",
-      "uid" : "7004375422afa942",
+      "name" : "Verify new Product creation:",
+      "uid" : "a2cd3834273bea5a",
       "parentUid" : "e7ea4610bb37b22c76e3e6d02c09d3f8",
       "status" : "skipped",
       "time" : {
-        "start" : 1537404554061,
-        "stop" : 1537404554062,
-        "duration" : 1
+        "start" : 1537408243017,
+        "stop" : 1537408243017,
+        "duration" : 0
       },
       "flaky" : true,
       "parameters" : [ ]
     }, {
-      "name" : "Verify new Product creation:",
-      "uid" : "ba1ef3c90e07a038",
+      "name" : "Verify the ability to edit already created product:",
+      "uid" : "4da1cb2eb2245b27",
       "parentUid" : "e7ea4610bb37b22c76e3e6d02c09d3f8",
       "status" : "skipped",
       "time" : {
-        "start" : 1537404554061,
-        "stop" : 1537404554061,
+        "start" : 1537408243017,
+        "stop" : 1537408243017,
         "duration" : 0
       },
       "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "Verify the ability to delete already created product:",
-      "uid" : "f02ca315116ac546",
+      "uid" : "fc6b8e18e228a376",
       "parentUid" : "e7ea4610bb37b22c76e3e6d02c09d3f8",
       "status" : "passed",
       "time" : {
-        "start" : 1537404554062,
-        "stop" : 1537404580583,
-        "duration" : 26521
+        "start" : 1537408243018,
+        "stop" : 1537408271000,
+        "duration" : 27982
       },
       "flaky" : true,
       "parameters" : [ ]
