@@ -1,50 +1,50 @@
 [ {
-  "uid" : "b6e8c8000ef0fb5",
-  "name" : "Verify new Product creation:",
-  "time" : {
-    "start" : 1537428400668,
-    "stop" : 1537428415965,
-    "duration" : 15297
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "18988eec60d3d6b3",
-  "name" : "Login Admin",
-  "time" : {
-    "start" : 1537428400657,
-    "stop" : 1537428400659,
-    "duration" : 2
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "f21111329f8dd79f",
-  "name" : "Login as Scorer",
-  "time" : {
-    "start" : 1537428400659,
-    "stop" : 1537428400660,
-    "duration" : 1
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "b3199b5d077c3f66",
-  "name" : "Verify the ability to delete already created product:",
-  "time" : {
-    "start" : 1537428435684,
-    "stop" : 1537428463748,
-    "duration" : 28064
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8d72a53b79944399",
+  "uid" : "ae13ab09adcea794",
   "name" : "Verify the ability to edit already created product:",
   "time" : {
-    "start" : 1537428415966,
-    "stop" : 1537428435684,
-    "duration" : 19718
+    "start" : 1537437452871,
+    "stop" : 1537437472271,
+    "duration" : 19400
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3afc0459fb191860",
+  "name" : "Verify Login as Admin",
+  "time" : {
+    "start" : 1537437423331,
+    "stop" : 1537437430661,
+    "duration" : 7330
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bff08666d7d8aa81",
+  "name" : "Verify new Product creation:",
+  "time" : {
+    "start" : 1537437438213,
+    "stop" : 1537437452871,
+    "duration" : 14658
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "918dc4d9018e8f09",
+  "name" : "Verify Logout as Admin",
+  "time" : {
+    "start" : 1537437430661,
+    "stop" : 1537437438205,
+    "duration" : 7544
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b934db985c15d6f7",
+  "name" : "Verify the ability to delete already created product:",
+  "time" : {
+    "start" : 1537437472271,
+    "stop" : 1537437500337,
+    "duration" : 28066
   },
   "status" : "passed",
   "severity" : "normal"

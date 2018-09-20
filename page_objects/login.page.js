@@ -10,8 +10,8 @@ let emailInputLocator = "#email";
 let passwordInputLocator = "#userPassword";
 let signInBtnLocator = "div.iframe-wrap > div.row >div >button.login-button";
 
-let logoutDropdownLocator = "span.caret";
-let logoutButtonLocator = "a.dropdown-item>strong";
+let logoutDropdownLocator = "#single-button > span";
+let logoutButtonLocator = 'li[role="menuitem"] > a > strong';
 
 
 class LoginPage {
@@ -40,7 +40,6 @@ class LoginPage {
     getLogoutButton(){
         return new WebButton(element(by.css(logoutButtonLocator)),"Logout Button");
     }
-    
 
     async open(url){
         await browser.get(url);
@@ -58,9 +57,11 @@ class LoginPage {
         return new ProductsPage();
     }
 
-    async logout(){  
-          await this.getLogoutDropdown().click();
-          await this.getLogoutButton().click();
+    async logout(){ 
+        await browser.waitForAngularEnabled(false);
+    
+        await this.getLogoutDropdown().click();       
+        await this.getLogoutButton().click(); 
     }
 }
 
