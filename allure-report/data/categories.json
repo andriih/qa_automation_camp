@@ -1,25 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "ReferenceError: Xit is not defined",
-      "children" : [ {
-        "name" : "encountered a declaration exception",
-        "uid" : "bc090bfde4a3fa0f",
-        "parentUid" : "79d00cb03250ade6c97897c98a1b8201",
-        "status" : "failed",
-        "time" : {
-          "start" : 1537343330230,
-          "stop" : 1537343333254,
-          "duration" : 3024
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "79d00cb03250ade6c97897c98a1b8201"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ]
+  "children" : [ ]
 }

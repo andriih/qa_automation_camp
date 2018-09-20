@@ -1,51 +1,61 @@
 [ {
-  "uid" : "bc090bfde4a3fa0f",
-  "name" : "encountered a declaration exception",
+  "uid" : "426c9adba78e1a9f",
+  "name" : "Login as Scorer",
   "time" : {
-    "start" : 1537343330230,
-    "stop" : 1537343333254,
-    "duration" : 3024
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "4cc7d5d7db5c72c7",
-  "name" : "Verify the ability to edit already created product:",
-  "time" : {
-    "start" : 1537362238592,
-    "stop" : 1537362264834,
-    "duration" : 26242
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "af35dcbed5bd178b",
-  "name" : "Login pass test",
-  "time" : {
-    "start" : 1537362217554,
-    "stop" : 1537362217557,
-    "duration" : 3
+    "start" : 1537404553930,
+    "stop" : 1537404553931,
+    "duration" : 1
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "82b24d134b07d8eb",
-  "name" : "Verify new Product creation:",
+  "uid" : "bb17a6f3bda85bd9",
+  "name" : "Login Admin",
   "time" : {
-    "start" : 1537362217566,
-    "stop" : 1537362238591,
-    "duration" : 21025
+    "start" : 1537404553925,
+    "stop" : 1537404553929,
+    "duration" : 4
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "c6b0e51ea88dc196",
+  "name" : "Login pass test",
+  "time" : {
+    "start" : 1537382978216,
+    "stop" : 1537382978220,
+    "duration" : 4
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "7004375422afa942",
+  "name" : "Verify the ability to edit already created product:",
+  "time" : {
+    "start" : 1537404554061,
+    "stop" : 1537404554062,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f02ca315116ac546",
+  "name" : "Verify the ability to delete already created product:",
+  "time" : {
+    "start" : 1537404554062,
+    "stop" : 1537404580583,
+    "duration" : 26521
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1e60e46c083e7324",
-  "name" : "Prod tab:",
+  "uid" : "ba1ef3c90e07a038",
+  "name" : "Verify new Product creation:",
   "time" : {
-    "start" : 1537341439050,
-    "stop" : 1537341460264,
-    "duration" : 21214
+    "start" : 1537404554061,
+    "stop" : 1537404554061,
+    "duration" : 0
   },
-  "status" : "passed",
+  "status" : "skipped",
   "severity" : "normal"
 } ]

@@ -25,6 +25,8 @@ let editBtnLocator = 'button.gds-edit-icon';
 let saveBtnLocator = "#saveProductEdit";
 
 let deleteBtnLocator = "button.gds-delete-icon";
+let deleteBtnInModalSelector = "body > app > main > administration > div.container > div > div > projects > div > div.section > div.col-md-12.section__right > project > confirmation-modal > div > div > div > div.modal-footer > button.btn.gds-btn.gds-ml-1.gds-btn-danger";
+let noResultLocator = "body > app > main > administration > div.container > div > div > projects > div > div.section > div.section__left > div.col-md-12.section-body.preview-list__wrapper.ps-container.ps-theme-default > ul > li > div > p";
 
 
 class ProductsPage {
@@ -77,11 +79,15 @@ class ProductsPage {
     }
 
     getSaveBtn(){
-        return new WebButton(element(by.css(saveBtnLocator)), "Selected list item Button");
+        return new WebButton(element(by.css(saveBtnLocator)), "Save Button");
     }
 
     getDeleteBtn(){
-        return new WebButton(element(by.css(deleteBtnLocator)), "Selected list item Button");
+        return new WebButton(element(by.css(deleteBtnLocator)), "Delete Button");
+    }
+
+    getInnerDeleteBtn(){
+        return new WebButton(element(by.css(deleteBtnInModalSelector)), "Delete In Modal Button");
     }
     
 
@@ -135,9 +141,10 @@ class ProductsPage {
 
         await this.getEditBtn().click();
 
-        await this.getProductNameField().sendKeys(randomName+"_EDITED");
+        await this.getProductNameField().sendKeys("_EDITED");
 
         await this.getSaveBtn().click();
+
         
         await browser.sleep(5000);
     }
@@ -145,9 +152,8 @@ class ProductsPage {
     async delete(randomName){
         await browser.waitForAngularEnabled(false);    
     
-        await browser.wait(EC.visibilityOf($("#navbar > ul > li:nth-child(2) > a")),5000);
+        await browser.wait(EC.visibilityOf($('#navbar > ul > li:nth-child(2) > a')),5000);
         await this.header.getAdministrationMenu().click();   
-    
 
         await this.getSearchProductInput().sendKeys(randomName);
 
@@ -156,8 +162,16 @@ class ProductsPage {
 
         await browser.wait(EC.visibilityOf($(deleteBtnLocator)),10*1000);  
         await this.getDeleteBtn().click();
+        
+        await browser.wait(EC.visibilityOf($('body > app > main > administration > div.container > div > div > projects > div > div.section > div.col-md-12.section__right > project > confirmation-modal > div > div > div > div.modal-footer > button.btn.gds-btn.gds-ml-1.gds-btn-danger')),5000);
+        await this.getInnerDeleteBtn().click();
 
-        await browser.sleep(5000);
+        await browser.wait(EC.visibilityOf(this.getToasterPop(), 1000));
+        
+        await this.getSearchProductInput().sendKeys(randomName);
+
+
+        await browser.sleep(5*1000);
     }
 
     
