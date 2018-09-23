@@ -1,0 +1,48 @@
+2018-09-23 11:10:20,724 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2018-09-23 11:10:20,762 INFO o.a.j.JMeter: Loading user properties from: E:\Програми\apache-jmeter-5.0\bin\user.properties
+2018-09-23 11:10:20,763 INFO o.a.j.JMeter: Loading system properties from: E:\Програми\apache-jmeter-5.0\bin\system.properties
+2018-09-23 11:10:20,772 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2018-09-23 11:10:20,772 INFO o.a.j.JMeter: Version 5.0 r1840935
+2018-09-23 11:10:20,772 INFO o.a.j.JMeter: java.version=10.0.2
+2018-09-23 11:10:20,772 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2018-09-23 11:10:20,772 INFO o.a.j.JMeter: os.name=Windows 7
+2018-09-23 11:10:20,773 INFO o.a.j.JMeter: os.arch=amd64
+2018-09-23 11:10:20,773 INFO o.a.j.JMeter: os.version=6.1
+2018-09-23 11:10:20,773 INFO o.a.j.JMeter: file.encoding=Cp1251
+2018-09-23 11:10:20,773 INFO o.a.j.JMeter: Max memory     =1073741824
+2018-09-23 11:10:20,774 INFO o.a.j.JMeter: Available Processors =4
+2018-09-23 11:10:20,785 INFO o.a.j.JMeter: Default Locale=English (EN)
+2018-09-23 11:10:20,786 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2018-09-23 11:10:20,786 INFO o.a.j.JMeter: JMeterHome=E:\Програми\apache-jmeter-5.0
+2018-09-23 11:10:20,786 INFO o.a.j.JMeter: user.dir  =C:\Users\Andrii\Desktop\jmeter
+2018-09-23 11:10:20,786 INFO o.a.j.JMeter: PWD       =C:\Users\Andrii\Desktop\jmeter
+2018-09-23 11:10:23,038 INFO o.a.j.JMeter: IP: 192.168.56.1 Name: Andrii-ПК FullName: 192.168.56.1
+2018-09-23 11:10:23,419 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2018-09-23 11:10:23,431 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2018-09-23 11:10:23,431 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2018-09-23 11:10:23,561 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2018-09-23 11:10:24,318 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-09-23 11:10:24,318 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-09-23 11:10:25,778 INFO o.j.r.JARSourceHTTP: Found cached repo
+2018-09-23 11:10:25,999 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=1.3, jpgc-tst=2.5, jmeter-core=5.0, jmeter-ftp=5.0, jmeter-http=5.0, jmeter-jdbc=5.0, jmeter-jms=5.0, jmeter-junit=5.0, jmeter-java=5.0, jmeter-ldap=5.0, jmeter-mail=5.0, jmeter-mongodb=5.0, jmeter-native=5.0, jmeter-tcp=5.0, jmeter-components=5.0]
+2018-09-23 11:10:27,791 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-09-23 11:10:27,792 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-09-23 11:10:27,792 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-09-23 11:10:27,792 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-09-23 11:10:27,793 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-09-23 11:10:27,793 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-09-23 11:10:28,140 INFO o.a.j.e.KeyToolUtils: Exception checking for keytool existence, will return false, try another way.
+2018-09-23 11:10:28,509 INFO o.a.j.e.KeyToolUtils: keytool found at 'C:\Program Files\Java\jre-10.0.2\bin\keytool'
+2018-09-23 11:10:28,510 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file E:\Програми\apache-jmeter-5.0\bin\proxyserver.jks
+2018-09-23 11:10:28,767 INFO o.a.j.s.FileServer: Default base='C:\Users\Andrii\Desktop\jmeter'
+2018-09-23 11:10:29,583 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-09-23 11:10:29,584 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-09-23 11:10:29,584 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-09-23 11:10:29,584 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-09-23 11:10:31,198 INFO o.a.j.g.a.Load: Loading file: C:\Users\Andrii\Desktop\jmeter\loginMakeDeleteLogout.jmx
+2018-09-23 11:10:31,199 INFO o.a.j.s.FileServer: Set new base='C:\Users\Andrii\Desktop\jmeter'
+2018-09-23 11:10:31,377 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-09-23 11:10:31,388 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2018-09-23 11:10:31,391 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-09-23 11:10:31,394 INFO o.a.j.s.SaveService: Loading file: C:\Users\Andrii\Desktop\jmeter\loginMakeDeleteLogout.jmx
+2018-09-23 11:10:32,027 INFO o.a.j.s.FileServer: Set new base='C:\Users\Andrii\Desktop\jmeter'
